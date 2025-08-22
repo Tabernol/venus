@@ -83,7 +83,7 @@ function Presentation() {
                 },
               })}
             >
-              Hello Vika, we can adjust this page. {" "}
+              Hello Vika, we can customize this page. Most of components we can use/change or remove.{" "}
             </MKTypography>
             <MKTypography
               variant="body1"

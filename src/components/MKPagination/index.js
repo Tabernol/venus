@@ -29,7 +29,9 @@ const Context = createContext();
 
 const MKPagination = forwardRef(
   ({ item, variant, color, size, active, children, placement, ...rest }, ref) => {
-    const context = item ? useContext(Context) : null;
+    // const context = item ? useContext(Context) : null;
+      const contextValue = useContext(Context); // always call //todo fix it
+      const context = item ? contextValue : null;
     const paginationSize = context ? context.size : null;
     const paginationProps = useMemo(() => ({ variant, color, size }), []);
     let placementValue = "flex-end";
