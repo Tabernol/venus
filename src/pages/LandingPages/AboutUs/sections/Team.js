@@ -35,7 +35,7 @@ function Team() {
     <MKBox
       component="section"
       variant="gradient"
-      bgColor="dark"
+      bgColor="primary"
       position="relative"
       py={6}
       px={{ xs: 2, lg: 0 }}

@@ -44,19 +44,19 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-presentation.jpg";
+import bgImage from "assets/images/bg2.jpg";
 
 function Presentation() {
   return (
     <>
       <DefaultNavbar
         routes={routes}
-        action={{
-          type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
-          color: "info",
-        }}
+        // action={{
+        //   type: "external",
+        //   route: "https://www.creative-tim.com/product/material-kit-react",
+        //   label: "free download",
+        //   color: "info",
+        // }}
         sticky
       />
       <MKBox
