@@ -13,7 +13,7 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useEffect } from "react";
+import { useEffect, useMemo } from "react";
 
 // react-router components
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
@@ -28,37 +28,82 @@ import Presentation from "layouts/pages/presentation";
 
 // Material Kit 2 React routes
 import routes from "routes";
+import "./i18n";
 
 export default function App() {
-  const { pathname } = useLocation();
+    const { pathname } = useLocation();
 
-  // Setting page scroll to 0 when changing the route
-  useEffect(() => {
-    document.documentElement.scrollTop = 0;
-    document.scrollingElement.scrollTop = 0;
-  }, [pathname]);
+    useEffect(() => {
+        document.documentElement.scrollTop = 0;
+        document.scrollingElement.scrollTop = 0;
+    }, [pathname]);
 
-  const getRoutes = (allRoutes) =>
-    allRoutes.map((route) => {
-      if (route.collapse) {
-        return getRoutes(route.collapse);
-      }
+    // Плоске розгортання в <Route/>
+    const flatRoutes = useMemo(
+        () =>
+            Array.isArray(routes)
+                ? routes
+                    .filter((r) => r && r.route && r.component)
+                    .map((r) => (
+                        <Route key={r.route} path={r.route} element={r.component} />
+                    ))
+                : [],
+        []
+    );
 
-      if (route.route) {
-        return <Route exact path={route.route} element={route.component} key={route.key} />;
-      }
-
-      return null;
-    });
-
-  return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Routes>
-        {getRoutes(routes)}
-        <Route path="/presentation" element={<Presentation />} />
-        <Route path="*" element={<Navigate to="/presentation" />} />
-      </Routes>
-    </ThemeProvider>
-  );
+    return (
+        <ThemeProvider theme={theme}>
+            <CssBaseline />
+            <Routes>
+                {flatRoutes}
+                <Route path="/presentation" element={<Presentation />} />
+                {/* редірект на домашню (налаштовано на "/") */}
+                <Route path="*" element={<Navigate to="/" />} />
+            </Routes>
+        </ThemeProvider>
+    );
 }
+
+
+
+
+
+
+
+
+
+
+
+// export default function App() {
+//   const { pathname } = useLocation();
+//
+//   // Setting page scroll to 0 when changing the route
+//   useEffect(() => {
+//     document.documentElement.scrollTop = 0;
+//     document.scrollingElement.scrollTop = 0;
+//   }, [pathname]);
+//
+//   const getRoutes = (allRoutes) =>
+//     allRoutes.map((route) => {
+//       if (route.collapse) {
+//         return getRoutes(route.collapse);
+//       }
+//
+//       if (route.route) {
+//         return <Route exact path={route.route} element={route.component} key={route.key} />;
+//       }
+//
+//       return null;
+//     });
+//
+//   return (
+//     <ThemeProvider theme={theme}>
+//       <CssBaseline />
+//       <Routes>
+//         {getRoutes(routes)}
+//         <Route path="/presentation" element={<Presentation />} />
+//         <Route path="*" element={<Navigate to="/presentation" />} />
+//       </Routes>
+//     </ThemeProvider>
+//   );
+// }

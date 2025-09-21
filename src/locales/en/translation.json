@@ -1,0 +1,11 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "blog": "Blog",
+    "gallery": "Gallery",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "languages": { "en": "English", "uk": "Українська" }
+}

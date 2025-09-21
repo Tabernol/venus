@@ -73,10 +73,15 @@ import Toggles from "layouts/sections/elements/toggles";
 import Typography from "layouts/sections/elements/typography";
 
 const routes = [
+  // { name: "Home",
+  //   icon: <Icon>home</Icon>,
+  //   route: "/",
+  //   labelKey: "nav.home",
+  //   component: <AboutUs /> },
   {
     name: "About Us",
     icon: <Icon>home</Icon>,
-    route: "/about-us",
+    route: "/",
     component: <AboutUs />,
   },
   {
@@ -104,6 +109,8 @@ const routes = [
     component: <ContactUs />,
   },
 ];
+
+export default routes;
 
 // const routes = [
 //   {
@@ -307,5 +314,5 @@ const routes = [
 //     href: "https://www.github.com/creativetimofficial/material-kit-react",
 //   },
 // ];
-
-export default routes;
+//
+// export default routes;
