@@ -238,7 +238,10 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
             {renderNavbarItems}
           </MKBox>
           <MKBox ml={{ xs: "auto", lg: 0 }} display="flex" alignItems="center" gap={1}>
-          <LanguageSwitcher />
+            {/* показуємо перемикач тільки на lg+, а на мобілці буде в мобільному меню */}
+            <MKBox display={{ xs: "none", lg: "inline-flex" }}>
+              <LanguageSwitcher />
+            </MKBox>
             {action &&
               (action.type === "internal" ? (
                 <MKButton
@@ -285,10 +288,12 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
           </MKBox>
         </MKBox>
         <MKBox
-          bgColor={transparent ? "white" : "transparent"}
-          shadow={transparent ? "lg" : "none"}
-          borderRadius="xl"
-          px={transparent ? 2 : 0}
+          // bgColor={transparent ? "white" : "transparent"}
+          // shadow={transparent ? "lg" : "none"}
+            bgColor="transparent"
+            shadow="none"
+            borderRadius="xl"
+            px={transparent ? 2 : 0}
         >
           {/*{mobileView && (*/}
           {/*    <MKBox px={2} pb={1} display="flex" justifyContent="flex-end">*/}
