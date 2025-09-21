@@ -5,9 +5,12 @@ import bgImage from "../../../assets/images/bg-about-us.jpg";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import MKTypography from "../../../components/MKTypography";
+import HeroVideoBackground from "../../../components/HeroVideoBackground";
 import MKButton from "../../../components/MKButton";
 import DefaultFooter from "../../../examples/Footers/DefaultFooter";
 import footerRoutes from "../../../footer.routes";
+import heroMp4 from "assets/video/golden_kiss_moment_simple.mp4";
+
 
 export default function Gallery() {
     return (
@@ -23,21 +26,36 @@ export default function Gallery() {
                 transparent
                 light
             />
-            <MKBox
-                minHeight="75vh"
-                width="100%"
-                sx={{
-                    backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
-                        `${linearGradient(
-                            rgba(gradients.dark.main, 0.6),
-                            rgba(gradients.dark.state, 0.6)
-                        )}, url(${bgImage})`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    display: "grid",
-                    placeItems: "center",
-                }}
+            <HeroVideoBackground
+                srcMp4={heroMp4}
+                // srcWebm={heroWebm}
+                // poster={heroPoster}
+                height="80vh"
             >
+                <div>
+                    <MKTypography variant="h2" color="white" fontWeight="bold" mb={2}>
+                        Створимо ваш ідеальний весільний день
+                    </MKTypography>
+                    <MKTypography variant="body1" color="white" opacity={0.85} mb={3}>
+                        Організація, декор, координація — все під ключ.
+                    </MKTypography>
+                </div>
+            </HeroVideoBackground>
+            {/*<MKBox*/}
+            {/*    minHeight="75vh"*/}
+            {/*    width="100%"*/}
+            {/*    sx={{*/}
+            {/*        backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>*/}
+            {/*            `${linearGradient(*/}
+            {/*                rgba(gradients.dark.main, 0.6),*/}
+            {/*                rgba(gradients.dark.state, 0.6)*/}
+            {/*            )}, url(${bgImage})`,*/}
+            {/*        backgroundSize: "cover",*/}
+            {/*        backgroundPosition: "center",*/}
+            {/*        display: "grid",*/}
+            {/*        placeItems: "center",*/}
+            {/*    }}*/}
+            {/*>*/}
                 {/*<Container>*/}
                 {/*    <Grid*/}
                 {/*        container*/}
@@ -86,7 +104,9 @@ export default function Gallery() {
                 {/*        </MKBox>*/}
                 {/*    </Grid>*/}
                 {/*</Container>*/}
-            </MKBox>
+
+
+            {/*</MKBox>*/}
             <MKBox pt={6} px={1} mt={6}>
                 <DefaultFooter content={footerRoutes} />
             </MKBox>
