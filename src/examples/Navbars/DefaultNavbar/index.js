@@ -285,16 +285,16 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
           </MKBox>
         </MKBox>
         <MKBox
-          bgColor={transparent ? "white" : "transparent"}
-          shadow={transparent ? "lg" : "none"}
-          borderRadius="xl"
-          px={transparent ? 2 : 0}
+            bgColor="transparent"
+            shadow="none"
+            borderRadius="xl"
+            px={transparent ? 2 : 0}
         >
-          {mobileView && (
-              <MKBox px={2} pb={1} display="flex" justifyContent="flex-end">
-                <LanguageSwitcher size="medium" />
-                </MKBox>
-              )}
+          {/*{mobileView && (*/}
+          {/*    <MKBox px={2} pb={1} display="flex" justifyContent="flex-end">*/}
+          {/*      <LanguageSwitcher size="medium" />*/}
+          {/*      </MKBox>*/}
+          {/*    )}*/}
           {mobileView && <DefaultNavbarMobile routes={routes} open={mobileNavbar} />}
         </MKBox>
       </MKBox>
