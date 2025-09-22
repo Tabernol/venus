@@ -10,5 +10,85 @@
   "gall": {
     "title": "Let's create your perfect wedding day"
   },
-  "languages": { "en": "English", "uk": "Українська" }
+  "languages": { "en": "English", "uk": "Українська" },
+  "services": {
+    "heading": "Our Services",
+    "list": [
+      {
+        "id": "matchmaking",
+        "title": "Personalized Matchmaking",
+        "description": "We select candidates by values, lifestyle, and real family goals. Each person passes a personal check, interview, and screening—so you meet someone you truly want to build a life with."
+      },
+      {
+        "id": "contract",
+        "title": "Transparent Contract & Guarantees",
+        "description": "Before we start, we sign a clear agreement: scope, timelines, guarantees, and responsibilities. This protects your interests and establishes trust."
+      },
+      {
+        "id": "free_consultation",
+        "title": "Free First Consultation",
+        "description": "A friendly, professional meeting online or at our office. We explain the process, answer your questions, and propose a tailored action plan."
+      },
+      {
+        "id": "profile_setup",
+        "title": "Professional Profile Setup",
+        "description": "A profile that works: curated photos, an honest and clear bio, and realistic expectations—designed to attract serious, compatible partners."
+      },
+      {
+        "id": "style_photoshoot",
+        "title": "Style & Photoshoot",
+        "description": "We craft your look, select outfits, and organize a photoshoot. Natural, modern, trust-building photos—an investment in results."
+      },
+      {
+        "id": "cultural_coaching",
+        "title": "Cultural Coaching",
+        "description": "We explain etiquette, family expectations, and cultural nuances of your partner’s country to avoid misunderstandings and build respectful relationships."
+      },
+      {
+        "id": "visa_support",
+        "title": "Visa & Migration Support",
+        "description": "We assist with document packages, apostilles, notarization, and visa/relocation applications—in partnership with vetted attorneys."
+      },
+      {
+        "id": "translation",
+        "title": "Translation & Communication Support",
+        "description": "Document and correspondence translation, plus assistance on calls and meetings. Notarized certification arranged when needed."
+      },
+      {
+        "id": "cupid_game",
+        "title": "Transformational Game “Cupid”",
+        "description": "A guided practice to reveal your relationship patterns, remove inner barriers, and prepare for long-term commitment—so you choose consciously."
+      },
+      {
+        "id": "legal_support",
+        "title": "General Legal Support",
+        "description": "Consulting on contracts, family law, and international procedures. We collaborate with attorneys and migration law specialists."
+      },
+      {
+        "id": "background_check",
+        "title": "Background Checks",
+        "description": "We verify marital status, social standing, and key facts—especially important for international matches."
+      },
+      {
+        "id": "confidentiality",
+        "title": "Confidentiality & Data Protection",
+        "description": "Your data is stored securely; real cases are published only with clients’ permission."
+      },
+      {
+        "id": "personal_manager",
+        "title": "Personal Manager",
+        "description": "One dedicated specialist accompanies you from the first consultation to relocation: coordination, ongoing communication, and decision support."
+      },
+      {
+        "id": "offline_events",
+        "title": "Offline Meetups & Tours",
+        "description": "We organize trips and in-person events for meaningful introductions—program and logistics included."
+      },
+      {
+        "id": "post_marriage_support",
+        "title": "Post-Marriage Support",
+        "description": "Advice on adapting to a new country: daily life, paperwork, relocation questions, and documents for children."
+      }
+    ]
+  }
 }

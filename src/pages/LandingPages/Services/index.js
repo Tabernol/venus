@@ -9,7 +9,7 @@ import Grid from "@mui/material/Grid";
 import MKTypography from "../../../components/MKTypography";
 import MKButton from "../../../components/MKButton";
 import Card from "@mui/material/Card";
-import Information from "../AboutUs/sections/Information";
+import Information from "../Services/sections/Information";
 import Team from "../AboutUs/sections/Team";
 import Featuring from "../AboutUs/sections/Featuring";
 import Newsletter from "../AboutUs/sections/Newsletter";
@@ -94,20 +94,20 @@ function Services() {
                     </Grid>
                 </Container>
             </MKBox>
-            {/*<Card*/}
-            {/*    sx={{*/}
-            {/*        p: 2,*/}
-            {/*        mx: { xs: 2, lg: 3 },*/}
-            {/*        mt: -8,*/}
-            {/*        mb: 4,*/}
-            {/*        boxShadow: ({ boxShadows: { xxl } }) => xxl,*/}
-            {/*    }}*/}
-            {/*>*/}
-            {/*    <Information />*/}
-            {/*    <Team />*/}
-            {/*    <Featuring />*/}
-            {/*    <Newsletter />*/}
-            {/*</Card>*/}
+            <Card
+                sx={{
+                    p: 2,
+                    mx: { xs: 2, lg: 3 },
+                    mt: -8,
+                    mb: 4,
+                    boxShadow: ({ boxShadows: { xxl } }) => xxl,
+                }}
+            >
+                <Information />
+                {/*<Team />*/}
+                <Featuring />
+                <Newsletter />
+            </Card>
             <MKBox pt={6} px={1} mt={6}>
                 <DefaultFooter content={footerRoutes} />
             </MKBox>
