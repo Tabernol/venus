@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import Collapse from "@mui/material/Collapse";
@@ -12,11 +12,9 @@ import MKTypography from "components/MKTypography";
 import LanguageSwitcher from "components/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
 
-function DefaultNavbarMobile({ routes, open }) {
+function DefaultNavbarMobile({ routes, open, onClose }) {
     const { t } = useTranslation();
     const safeRoutes = Array.isArray(routes) ? routes : [];
-
-    // map path -> i18n key (підлаштуй під свої)
     const labelKeyByPath = {
         "/": "nav.home",
         "/about-us": "nav.about",
@@ -29,14 +27,15 @@ function DefaultNavbarMobile({ routes, open }) {
     return (
         <Collapse in={Boolean(open)} timeout="auto" unmountOnExit>
             <MKBox
-                // прибираємо дивний «пошуковий» вигляд
                 width="100%"
-                my={1}
-                ml={0}
                 px={2}
                 py={1}
+                sx={(theme) => ({
+                    bgcolor: theme.palette.background.paper,
+                    borderRadius: "12px",
+                    boxShadow: theme.shadows[8],
+                })}
             >
-                {/* ЄДИНИЙ перемикач мови у мобільному меню */}
                 <MKBox display="flex" justifyContent="flex-end" mb={1}>
                     <LanguageSwitcher size="medium" />
                 </MKBox>
@@ -47,8 +46,8 @@ function DefaultNavbarMobile({ routes, open }) {
                         .map(({ name, route, href }) => {
                             const label = t(labelKeyByPath[route] || name);
                             const linkProps = route
-                                ? { component: Link, to: route }
-                                : { component: MuiLink, href, target: "_blank", rel: "noreferrer" };
+                                ? { component: Link, to: route, onClick: onClose }
+                                : { component: MuiLink, href, target: "_blank", rel: "noreferrer", onClick: onClose };
 
                             return (
                                 <ListItemButton
@@ -61,11 +60,7 @@ function DefaultNavbarMobile({ routes, open }) {
                                     })}
                                 >
                                     <ListItemText
-                                        primary={
-                                            <MKTypography variant="button" textTransform="capitalize">
-                                                {label}
-                                            </MKTypography>
-                                        }
+                                        primary={<MKTypography variant="button" textTransform="capitalize">{label}</MKTypography>}
                                     />
                                 </ListItemButton>
                             );
@@ -76,9 +71,14 @@ function DefaultNavbarMobile({ routes, open }) {
     );
 }
 
+DefaultNavbarMobile.defaultProps = {
+    onClose: () => {},
+};
+
 DefaultNavbarMobile.propTypes = {
     routes: PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.object])).isRequired,
     open: PropTypes.oneOfType([PropTypes.bool, PropTypes.object]).isRequired,
+    onClose: PropTypes.func,
 };
 
 export default DefaultNavbarMobile;

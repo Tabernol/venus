@@ -13,108 +13,66 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-// prop-types is a library for typechecking of props
+import React from "react";
 import PropTypes from "prop-types";
-
-// react-router-dom components
 import { Link } from "react-router-dom";
-
-// @mui material components
-import Collapse from "@mui/material/Collapse";
+import MuiLink from "@mui/material/Link";
 import Icon from "@mui/material/Icon";
 
-// Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-function DefaultNavbarDropdown({
-  name,
-  icon,
-  children,
-  collapseStatus,
-  light,
-  href,
-  route,
-  collapse,
-  ...rest
-}) {
-  const linkComponent = {
-    component: "a",
-    href,
-    target: "_blank",
-    rel: "noreferrer",
-  };
-
-  const routeComponent = {
-    component: Link,
-    to: route,
-  };
+function DefaultNavbarDropdown({ name, icon, href, route, light, ...rest }) {
+  const linkProps = href
+      ? { component: MuiLink, href, target: "_blank", rel: "noreferrer" }
+      : { component: Link, to: route || "/" };
 
   return (
-    <>
       <MKBox
-        {...rest}
-        mx={1}
-        p={1}
-        display="flex"
-        alignItems="baseline"
-        color={light ? "white" : "dark"}
-        opacity={light ? 1 : 0.6}
-        sx={{ cursor: "pointer", userSelect: "none" }}
-        {...(route && routeComponent)}
-        {...(href && linkComponent)}
-      >
-        <MKTypography
-          variant="body2"
-          lineHeight={1}
-          color="inherit"
-          sx={{ alignSelf: "center", "& *": { verticalAlign: "middle" } }}
-        >
-          {icon}
-        </MKTypography>
-        <MKTypography
-          variant="button"
-          fontWeight="regular"
-          textTransform="capitalize"
+          {...rest}
+          display="flex"
+          alignItems="center"
           color={light ? "white" : "dark"}
-          sx={{ fontWeight: "100%", ml: 1, mr: 0.25 }}
+          opacity={light ? 1 : 0.8}
+          px={1}
+          sx={({ palette: { grey, dark }, borders: { borderRadius } }) => ({
+            borderRadius: borderRadius.md,
+            cursor: "pointer",
+            "&:hover": { backgroundColor: grey[200], "& *": { color: dark.main } },
+          })}
+          {...linkProps}
+      >
+        {icon && (
+            <MKTypography variant="body2" lineHeight={1} color="inherit" sx={{ mr: 0.75 }}>
+              {typeof icon === "string" ? <Icon>{icon}</Icon> : icon}
+            </MKTypography>
+        )}
+        <MKTypography
+            variant="button"
+            fontWeight="regular"
+            textTransform="capitalize"
+            color="inherit"
+            sx={{ whiteSpace: "nowrap" }}
         >
           {name}
         </MKTypography>
-        <MKTypography variant="body2" color={light ? "white" : "dark"} ml="auto">
-          <Icon sx={{ fontWeight: "normal", verticalAlign: "middle" }}>
-            {collapse && "keyboard_arrow_down"}
-          </Icon>
-        </MKTypography>
       </MKBox>
-      {children && (
-        <Collapse in={Boolean(collapseStatus)} timeout={400} unmountOnExit>
-          {children}
-        </Collapse>
-      )}
-    </>
   );
 }
 
-// Setting default values for the props of DefaultNavbarDropdown
 DefaultNavbarDropdown.defaultProps = {
-  children: false,
-  collapseStatus: false,
-  light: false,
+  icon: null,
   href: "",
   route: "",
+  light: false,
 };
 
-// Typechecking props for the DefaultNavbarDropdown
 DefaultNavbarDropdown.propTypes = {
   name: PropTypes.string.isRequired,
-  icon: PropTypes.node.isRequired,
-  children: PropTypes.node,
-  collapseStatus: PropTypes.bool,
-  light: PropTypes.bool,
+  icon: PropTypes.node,
   href: PropTypes.string,
   route: PropTypes.string,
-  collapse: PropTypes.bool.isRequired,
+  light: PropTypes.bool,
 };
 
 export default DefaultNavbarDropdown;
