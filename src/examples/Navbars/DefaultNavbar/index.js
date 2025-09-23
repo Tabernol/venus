@@ -78,9 +78,10 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
             position={relative ? "relative" : "absolute"}
             left={0}
             zIndex={3}
-            sx={({ palette: { transparent: tcol, white }, functions: { rgba } }) => ({
-              backgroundColor: transparent ? tcol.main : rgba(white.main, 0.8),
-              backdropFilter: transparent ? "none" : `saturate(200%) blur(30px)`,
+            sx={(theme) => ({
+              backgroundColor: transparent ? "transparent" : theme.palette.background.paper,
+              backdropFilter: "none", // disable glass
+              border: transparent ? "none" : `1px solid ${theme.palette.divider}`,
             })}
         >
           <MKBox display="flex" justifyContent="space-between" alignItems="center">

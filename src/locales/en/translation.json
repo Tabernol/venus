@@ -11,6 +11,9 @@
     "title": "Let's create your perfect wedding day"
   },
   "languages": { "en": "English", "uk": "Українська" },
+  "about": {
+    "content": ""
+  },
   "services": {
     "heading": "Our Services",
     "list": [
@@ -90,5 +93,8 @@
         "description": "Advice on adapting to a new country: daily life, paperwork, relocation questions, and documents for children."
       }
     ]
+  },
+  "achievements": {
+
   }
 }
