@@ -11,7 +11,7 @@ import MKButton from "../../../components/MKButton";
 import Card from "@mui/material/Card";
 import Information from "../Services/sections/Information";
 import Team from "../AboutUs/sections/Team";
-import Featuring from "../AboutUs/sections/Featuring";
+import Achievements from "../AboutUs/sections/Achievements";
 import Newsletter from "../AboutUs/sections/Newsletter";
 import DefaultFooter from "../../../examples/Footers/DefaultFooter";
 import footerRoutes from "../../../footer.routes";
@@ -105,7 +105,7 @@ function Services() {
             >
                 <Information />
                 {/*<Team />*/}
-                <Featuring />
+                <Achievements />
                 <Newsletter />
             </Card>
             <MKBox pt={6} px={1} mt={6}>

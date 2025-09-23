@@ -95,6 +95,20 @@
     ]
   },
   "achievements": {
-
+    "pairs": {
+      "value": "50+",
+      "title": "Happy couples",
+      "description": "Couples who met through our agency."
+    },
+    "babies": {
+      "value": "17",
+      "title": "Babies",
+      "description": "Born in families that met with our help."
+    },
+    "meets": {
+      "value": "20+",
+      "title": "Introductions per month",
+      "description": "Video meetings and in-person dates every month."
+    }
   }
 }
