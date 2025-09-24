@@ -19,72 +19,72 @@ import Grid from "@mui/material/Grid";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
+import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
 import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
 import CenteredBlogCard from "examples/Cards/BlogCards/CenteredBlogCard";
+import { useTranslation } from "react-i18next";
 
 function Information() {
+  const { t } = useTranslation();
+
+  // Беремо масив фіч із локалізації: about.features[]
+  const features = t("about.features", { returnObjects: true }) || [];
+
+    const heading = t("about.heading");
+    const tagline = t("about.tagline");
+    const full = t("about.full", { returnObjects: true }) || [];
+    const paragraph = full[0] || "";
+
+    const image =
+        t("about.image", {
+            defaultValue:
+                "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1600&auto=format&fit=crop",
+        }) || "";
+
   return (
-    <MKBox component="section" py={12}>
-      <Container>
-        <Grid container spacing={3} alignItems="center">
-          <Grid item xs={12} lg={6}>
-            <Grid container justifyContent="flex-start">
-              <Grid item xs={12} md={6}>
-                <MKBox mb={5}>
-                  <DefaultInfoCard
-                    icon="public"
-                    title="Fully integrated"
-                    description="We get insulted by others, lose trust for those We get back freezes"
-                  />
-                </MKBox>
-              </Grid>
-              <Grid item xs={12} md={6}>
-                <MKBox mb={5}>
-                  <DefaultInfoCard
-                    icon="payments"
-                    title="Payments functionality"
-                    description="We get insulted by others, lose trust for those We get back freezes"
-                  />
-                </MKBox>
-              </Grid>
-              <Grid item xs={12} md={6}>
-                <MKBox mb={{ xs: 5, md: 0 }}>
-                  <DefaultInfoCard
-                    icon="apps"
-                    title="Prebuilt components"
-                    description="We get insulted by others, lose trust for those We get back freezes"
-                  />
-                </MKBox>
-              </Grid>
-              <Grid item xs={12} md={6}>
-                <MKBox mb={{ xs: 5, md: 0 }}>
-                  <DefaultInfoCard
-                    icon="3p"
-                    title="Improved platform"
-                    description="We get insulted by others, lose trust for those We get back freezes"
-                  />
-                </MKBox>
+      <MKBox component="section" py={12}>
+        <Container>
+          <Grid container spacing={3} alignItems="center">
+            <Grid item xs={12} lg={8}>
+              <Grid container justifyContent="flex-start" spacing={3}>
+                {(features).map((f, i) => (
+                    <Grid item xs={12} md={6} key={f.id || i}>
+                      <MKBox mb={{ xs: 5, md: 0 }}>
+                        <DefaultInfoCard
+                            icon={f.icon || "info"}
+                            title={f.title}
+                            description={f.description}
+                        />
+                      </MKBox>
+                    </Grid>
+                ))}
               </Grid>
             </Grid>
+              <Grid item xs={12} lg={4} sx={{ ml: "auto", mt: { xs: 3, lg: 0 } }}>
+                  <MKBox
+                      component="img"
+                      src={image}
+                      alt={heading}
+                      width="100%"
+                      borderRadius="lg"
+                      shadow="xl"
+                      sx={{ objectFit: "cover", maxHeight: 380, mb: 2 }}
+                  />
+                  <MKTypography variant="h4" fontWeight="bold" mb={1}>
+                      {heading}
+                  </MKTypography>
+                  <MKTypography variant="body1" color="text" mb={1.5}>
+                      {tagline}
+                  </MKTypography>
+                  <MKTypography variant="body2" color="text">
+                      {paragraph}
+                  </MKTypography>
+              </Grid>
           </Grid>
-          <Grid item xs={12} lg={4} sx={{ ml: "auto", mt: { xs: 3, lg: 0 } }}>
-            <CenteredBlogCard
-              image="https://images.unsplash.com/photo-1544717302-de2939b7ef71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-              title="Get insights on Search"
-              description="Website visitors today demand a frictionless user expericence — especially when using search. Because of the hight standards."
-              action={{
-                type: "internal",
-                route: "pages/company/about-us",
-                color: "info",
-                label: "find out more",
-              }}
-            />
-          </Grid>
-        </Grid>
-      </Container>
-    </MKBox>
+        </Container>
+      </MKBox>
   );
 }
 

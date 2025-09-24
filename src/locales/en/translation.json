@@ -12,7 +12,54 @@
   },
   "languages": { "en": "English", "uk": "Українська" },
   "about": {
-    "content": ""
+    "heading": "About us",
+    "tagline": "Venus International Matchmaking — since 2008 we help people find love across borders.",
+    "features": [
+      {
+        "id": "founded",
+        "icon": "favorite",
+        "title": "Founded in 2008",
+        "description": "Created by two like-minded friends — Olha Nechaieva and Viktoriia Lysanenko. From day one our goal is genuine, trust-based relationships."
+      },
+      {
+        "id": "europe_focus",
+        "icon": "public",
+        "title": "European focus",
+        "description": "We work worldwide with special attention to Europe. We arrange online meetings and in-person dates — in Ukraine and abroad."
+      },
+      {
+        "id": "results",
+        "icon": "verified",
+        "title": "Proven results",
+        "description": "50+ happy couples and 17 babies; every month we introduce 20+ new people. Every story is unique — clients are treated like family."
+      },
+      {
+        "id": "psych_support",
+        "icon": "psychology",
+        "title": "Psychological support",
+        "description": "We help remove inner barriers, gain confidence, and make thoughtful decisions on the relationship journey."
+      },
+      {
+        "id": "charity",
+        "icon": "volunteer_activism",
+        "title": "Charity & volunteering",
+        "description": "We partner with the Magura Charity Foundation (Poltava), supporting children with special needs. Love also means social responsibility."
+      },
+      {
+        "id": "office",
+        "icon": "location_on",
+        "title": "Office in Poltava center",
+        "description": "A cozy space of trust and openness. For 15+ years we’ve helped people find real love."
+      }
+    ],
+    "full": [
+      "Venus International Matchmaking was founded in 2008 by two friends and like-minded partners — Olha Nechaieva and Viktoriia Lysanenko. From the start, our mission has been to help people find true love without borders.",
+      "Over the years we’ve worked with men from around the world, with a special focus on European countries. We arrange introductions in Ukraine and abroad — from warm online meetings to real-life dates where trust and sincerity grow.",
+      "We count over 50 happy couples and 17 babies born in these strong families. Every month we introduce 20+ new people — via video meetings or in person. Each story is unique, and we treat every client as part of our big family.",
+      "We know the journey to love is more than profiles and dates. It’s also support, trust, and help in important moments. That’s why we provide psychological guidance so clients feel confident in themselves and their choices.",
+      "Charity holds a special place in our work. We closely cooperate with the Magura Charity Foundation (Poltava) and focus on children with special needs. Our team members are active volunteers.",
+      "Our cozy office is located in the very center of Poltava — a welcoming atmosphere of trust and warmth. We believe true love exists for everyone, and for more than 15 years we’ve been helping people find it."
+    ]
   },
   "services": {
     "heading": "Our Services",
