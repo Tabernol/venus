@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.js": "/venus/static/js/main.f4208245.js",
+    "main.js": "/venus/static/js/main.599b1cb0.js",
     "static/media/rotating-card-bg-front.jpeg": "/venus/static/media/rotating-card-bg-front.bdcdfadc0dacb9bc5f23.jpeg",
     "static/media/golden_kiss_moment_simple.mp4": "/venus/static/media/golden_kiss_moment_simple.59a7e7d7ee07d21334c0.mp4",
-    "static/media/macbook.png": "/venus/static/media/macbook.e0a8c5d5cc02d71b6d86.png",
+    "static/media/background1.png": "/venus/static/media/background1.deea3478646e9ebef483.png",
     "static/media/bg-coworking.jpeg": "/venus/static/media/bg-coworking.06bccc47fe6ae5366bf8.jpeg",
     "static/media/bg-sign-in-basic.jpeg": "/venus/static/media/bg-sign-in-basic.f327db1d0e4b00ba3c81.jpeg",
     "static/media/city-profile.jpg": "/venus/static/media/city-profile.4d64bba97c3d1757379e.jpg",
@@ -25,6 +25,7 @@
     "static/media/ivana-square.jpg": "/venus/static/media/ivana-square.f7bc23b269d1d2509c82.jpg",
     "static/media/ivana-squares.jpg": "/venus/static/media/ivana-squares.3c555b856b04c2ab921b.jpg",
     "static/media/team-4.jpg": "/venus/static/media/team-4.85c82b6e60178804017f.jpg",
+    "static/media/ukranian-matchmakers-label.png": "/venus/static/media/ukranian-matchmakers-label.ce7947b68b50fc291abe.png",
     "static/media/logo-digitalocean.svg": "/venus/static/media/logo-digitalocean.a1f147b01387952368e3180edf221c96.svg",
     "static/media/logo-pinterest.svg": "/venus/static/media/logo-pinterest.844709031a3c1266979e933c371e043a.svg",
     "static/media/logo-vodafone.svg": "/venus/static/media/logo-vodafone.b3e8486c0cac220bc3a31c9eab049b21.svg",
@@ -35,9 +36,9 @@
     "static/media/logo-nasa.svg": "/venus/static/media/logo-nasa.c5d11f8820bfde5fd64db0074156e06c.svg",
     "static/media/logo-netflix.svg": "/venus/static/media/logo-netflix.432ed6b5c31b9bcab9a38e32bf46a1e9.svg",
     "index.html": "/venus/index.html",
-    "main.f4208245.js.map": "/venus/static/js/main.f4208245.js.map"
+    "main.599b1cb0.js.map": "/venus/static/js/main.599b1cb0.js.map"
   },
   "entrypoints": [
-    "static/js/main.f4208245.js"
+    "static/js/main.599b1cb0.js"
   ]
 }
