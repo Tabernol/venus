@@ -154,7 +154,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
 }
 
 DefaultNavbar.defaultProps = {
-  brand: "Brand",
+  brand: "Venus",
   transparent: false,
   light: false,
   action: false,

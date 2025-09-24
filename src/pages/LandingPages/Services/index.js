@@ -66,16 +66,16 @@ function Services() {
                             })}
                         >
                         </MKTypography>
-                        <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
-                            We&apos;re constantly trying to express ourselves and actualize our dreams. If you
-                            have the opportunity to play this game
-                        </MKTypography>
-                        <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
-                            create account
-                        </MKButton>
-                        <MKTypography variant="h6" color="white" mt={8} mb={1}>
-                            Find us on
-                        </MKTypography>
+                        {/*<MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>*/}
+                        {/*    We&apos;re constantly trying to express ourselves and actualize our dreams. If you*/}
+                        {/*    have the opportunity to play this game*/}
+                        {/*</MKTypography>*/}
+                        {/*<MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>*/}
+                        {/*    create account*/}
+                        {/*</MKButton>*/}
+                        {/*<MKTypography variant="h6" color="white" mt={8} mb={1}>*/}
+                        {/*    Find us on*/}
+                        {/*</MKTypography>*/}
                         <MKBox display="flex" justifyContent="center" alignItems="center">
                             <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
                                 <i className="fab fa-facebook" />
@@ -105,7 +105,7 @@ function Services() {
                 <Information />
                 {/*<Team />*/}
                 <Achievements />
-                <Newsletter />
+                {/*<Newsletter />*/}
             </Card>
             <MKBox pt={6} px={1} mt={6}>
                 <DefaultFooter content={footerRoutes} />
