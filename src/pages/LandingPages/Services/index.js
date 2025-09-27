@@ -15,11 +15,13 @@ import Achievements from "../AboutUs/sections/Achievements";
 import Newsletter from "../AboutUs/sections/Newsletter";
 import DefaultFooter from "../../../examples/Footers/DefaultFooter";
 import footerRoutes from "../../../footer.routes";
+import venusLogo from "assets/images/logo/logo.png";
 
 function Services() {
     return (
         <>
             <DefaultNavbar
+                brand={{ name: "Venus", image: venusLogo, route: "/" }}
                 routes={routes}
                 // action={{
                 //   type: "external",

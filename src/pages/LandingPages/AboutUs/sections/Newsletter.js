@@ -26,7 +26,7 @@ import MKInput from "components/MKInput";
 import MKButton from "components/MKButton";
 
 // Images
-import ukrMatchmakerLabel from "assets/images/ukranian-matchmakers-label.png";
+import ukrMatchmakerLabel from "assets/images/logo/ukranian-matchmakers-logo.png";
 
 function Newsletter() {
   return (

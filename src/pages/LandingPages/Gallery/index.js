@@ -11,6 +11,7 @@ import DefaultFooter from "../../../examples/Footers/DefaultFooter";
 import footerRoutes from "../../../footer.routes";
 import heroMp4 from "assets/video/golden_kiss_moment_simple.mp4";
 import { useTranslation } from "react-i18next";
+import venusLogo from "../../../assets/images/logo/logo.png";
 
 
 export default function Gallery() {
@@ -18,6 +19,7 @@ export default function Gallery() {
     return (
         <>
             <DefaultNavbar
+                brand={{ name: "Venus", image: venusLogo, route: "/" }}
                 routes={routes}
                 // action={{
                 //   type: "external",

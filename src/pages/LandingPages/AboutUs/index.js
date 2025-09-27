@@ -36,7 +36,7 @@ import Newsletter from "pages/LandingPages/AboutUs/sections/Newsletter";
 // Routes
 import routes from "routes";
 import footerRoutes from "footer.routes";
-
+import venusLogo from "assets/images/logo/logo.png";
 // Images
 import bgImage from "assets/images/backgrounds/background2.jpg";
 
@@ -44,6 +44,7 @@ function AboutUs() {
   return (
     <>
       <DefaultNavbar
+          brand={{ name: "Venus", image: venusLogo, route: "/" }}
         routes={routes}
         // action={{
         //   type: "external",
@@ -129,7 +130,7 @@ function AboutUs() {
         <Information />
         <Team />
         <Achievements />
-        <Newsletter />
+        {/*<Newsletter />*/}
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />

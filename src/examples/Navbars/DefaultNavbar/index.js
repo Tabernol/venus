@@ -64,6 +64,11 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
     );
   });
 
+  const brandObj =
+      typeof brand === "string"
+          ? { name: brand, image: null, route: "/" }
+          : { route: "/", ...brand };
+
   return (
       <Container sx={sticky ? { position: "sticky", top: 0, zIndex: 10 } : null}>
         <MKBox
@@ -85,10 +90,24 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
             })}
         >
           <MKBox display="flex" justifyContent="space-between" alignItems="center">
-            <MKBox component={Link} to="/" lineHeight={1} py={transparent ? 1.5 : 0.75}>
-              <MKTypography variant="button" fontWeight="bold" color={light ? "white" : "dark"}>
-                {brand}
-              </MKTypography>
+            <MKBox component={Link} to={brandObj.route || "/"} lineHeight={1} py={transparent ? 1.5 : 0.75}>
+              {brandObj.image ? (
+                  <MKBox
+                      component="img"
+                      src={brandObj.image}
+                      alt={brandObj.name || "Brand"}
+                      sx={{
+                        height: { xs: 72, md: 88 }, // підгони за потреби
+                        width: "auto",
+                        display: "block",
+                        objectFit: "contain",
+                      }}
+                  />
+              ) : (
+                  <MKTypography variant="button" fontWeight="bold" color={light ? "white" : "dark"}>
+                    {brandObj.name || "Venus"}
+                  </MKTypography>
+              )}
             </MKBox>
 
             {/* desktop */}
@@ -163,7 +182,14 @@ DefaultNavbar.defaultProps = {
 };
 
 DefaultNavbar.propTypes = {
-  brand: PropTypes.string,
+  brand: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.shape({
+      name: PropTypes.string,
+      image: PropTypes.string, // шлях до зображення
+      route: PropTypes.string, // куди веде клік по лого
+    }),
+  ]),
   routes: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
   transparent: PropTypes.bool,
   light: PropTypes.bool,

@@ -4,11 +4,13 @@ import MKBox from "../../../components/MKBox";
 import bgImage from "../../../assets/images/bg-about-us.jpg";
 import DefaultFooter from "../../../examples/Footers/DefaultFooter";
 import footerRoutes from "../../../footer.routes";
+import venusLogo from "../../../assets/images/logo/logo.png";
 
 export default function Blog() {
     return (
         <>
             <DefaultNavbar
+                brand={{ name: "Venus", image: venusLogo, route: "/" }}
                 routes={routes}
                 // action={{
                 //   type: "external",
