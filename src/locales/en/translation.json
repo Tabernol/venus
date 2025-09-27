@@ -59,7 +59,17 @@
       "We know the journey to love is more than profiles and dates. It’s also support, trust, and help in important moments. That’s why we provide psychological guidance so clients feel confident in themselves and their choices.",
       "Charity holds a special place in our work. We closely cooperate with the Magura Charity Foundation (Poltava) and focus on children with special needs. Our team members are active volunteers.",
       "Our cozy office is located in the very center of Poltava — a welcoming atmosphere of trust and warmth. We believe true love exists for everyone, and for more than 15 years we’ve been helping people find it."
-    ]
+    ],
+    "viktoria": {
+      "name": "Viktoria",
+      "title": "Co-Founder",
+      "description": "I love what I do and put my heart into it. I’m an international matchmaker with 15 years of experience and a master’s degree in psychology and philology. My mission is to help every woman find inner harmony and meet true love. I’m currently working on my debut book to share insights and real transformation stories."
+    },
+    "olga": {
+      "name": "Olga",
+      "title": "Co-Founder",
+      "description": "My name is Olga. I’m a matchmaker with 15 years of experience, a master of psychology, and the host of the transformational psychological game “Cupid.” My passion is helping women on the path to warm, healthy relationships — from inner clarity to life-changing encounters. I live my work and truly believe every meeting can change a life."
+    }
   },
   "services": {
     "heading": "Our Services",

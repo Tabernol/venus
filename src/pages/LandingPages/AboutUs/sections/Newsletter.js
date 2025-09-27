@@ -35,13 +35,13 @@ function Newsletter() {
           <Grid container alignItems="center" spacing={2}>
             <Grid item xs={12} md={6} sx={{ ml: { xs: 0, lg: 3 }, mb: { xs: 3, md: 0 } }}>
               <MKTypography variant="h4">Be the first to see the news</MKTypography>
-              <MKTypography variant="body2" color="text" mb={3}>
-                Your company may not be in the software business, but eventually, a software company
-                will be in your business.
-              </MKTypography>
+              {/*<MKTypography variant="body2" color="text" mb={3}>*/}
+              {/*  Your company may not be in the software business, but eventually, a software company*/}
+              {/*  will be in your business.*/}
+              {/*</MKTypography>*/}
 
               <Grid container spacing={1}>
-                <Grid item xs={8}>
+                <Grid item xs={5}>
                   <MKInput type="email" label="Email Here..." fullWidth />
                 </Grid>
                 <Grid item xs={4}>

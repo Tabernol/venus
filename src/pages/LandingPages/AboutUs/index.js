@@ -38,7 +38,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/backgrounds/background1.png";
+import bgImage from "assets/images/backgrounds/background2.jpg";
 
 function AboutUs() {
   return (
