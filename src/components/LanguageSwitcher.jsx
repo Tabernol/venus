@@ -7,7 +7,7 @@ export default function LanguageSwitcher({ size = "small" }) {
     const { t } = useTranslation();
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
-    const current = (i18n.resolvedLanguage || "en").toLowerCase();
+    const current = (i18n.resolvedLanguage || "uk").toLowerCase();
 
     const handleOpen = (e) => setAnchorEl(e.currentTarget);
     const handleClose = () => setAnchorEl(null);
@@ -27,7 +27,7 @@ export default function LanguageSwitcher({ size = "small" }) {
                 {current}
             </Button>
             <Menu anchorEl={anchorEl} open={open} onClose={handleClose}>
-                {["en", "uk"].map((lng) => (
+                {["uk", "ru", "en"].map((lng) => (
                     <MenuItem key={lng} selected={lng === current} onClick={change(lng)}>
                         <ListItemText>{t(`languages.${lng}`)}</ListItemText>
                     </MenuItem>
