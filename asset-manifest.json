@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/venus/static/js/main.abb2011e.js",
+    "main.js": "/venus/static/js/main.75c40403.js",
     "static/media/background2.jpg": "/venus/static/media/background2.debea55a24bc20be3d9e.jpg",
     "static/media/rotating-card-bg-front.jpeg": "/venus/static/media/rotating-card-bg-front.bdcdfadc0dacb9bc5f23.jpeg",
     "static/media/golden_kiss_moment_simple.mp4": "/venus/static/media/golden_kiss_moment_simple.59a7e7d7ee07d21334c0.mp4",
@@ -17,13 +17,14 @@
     "static/media/testimonial-6-2.jpg": "/venus/static/media/testimonial-6-2.21f2048f0b89919090f0.jpg",
     "static/media/testimonial-6-3.jpg": "/venus/static/media/testimonial-6-3.d35bef0d65354442d063.jpg",
     "static/media/olya2.jpg": "/venus/static/media/olya2.7a04eb8fd6a714a6f12f.jpg",
+    "static/media/logo.png": "/venus/static/media/logo.b3f1e282bc9eb5115034.png",
     "static/media/vika1.jpg": "/venus/static/media/vika1.a93a538ed498791f5556.jpg",
     "static/media/team-1.jpg": "/venus/static/media/team-1.0fd36e0ee93dcfacdef8.jpg",
     "static/media/bruce-mars.jpg": "/venus/static/media/bruce-mars.8a606c4a6dab54c9ceff.jpg",
     "static/media/team-2.jpg": "/venus/static/media/team-2.13ae2ce3e12f4cfed420.jpg",
     "static/media/team-3.jpg": "/venus/static/media/team-3.0ef0be95e6850814c79e.jpg",
     "static/media/team-4.jpg": "/venus/static/media/team-4.85c82b6e60178804017f.jpg",
-    "static/media/ukranian-matchmakers-label.png": "/venus/static/media/ukranian-matchmakers-label.ce7947b68b50fc291abe.png",
+    "static/media/ukranian-matchmakers-logo.png": "/venus/static/media/ukranian-matchmakers-logo.ce7947b68b50fc291abe.png",
     "static/media/logo-digitalocean.svg": "/venus/static/media/logo-digitalocean.a1f147b01387952368e3180edf221c96.svg",
     "static/media/logo-pinterest.svg": "/venus/static/media/logo-pinterest.844709031a3c1266979e933c371e043a.svg",
     "static/media/logo-vodafone.svg": "/venus/static/media/logo-vodafone.b3e8486c0cac220bc3a31c9eab049b21.svg",
@@ -34,9 +35,9 @@
     "static/media/logo-nasa.svg": "/venus/static/media/logo-nasa.c5d11f8820bfde5fd64db0074156e06c.svg",
     "static/media/logo-netflix.svg": "/venus/static/media/logo-netflix.432ed6b5c31b9bcab9a38e32bf46a1e9.svg",
     "index.html": "/venus/index.html",
-    "main.abb2011e.js.map": "/venus/static/js/main.abb2011e.js.map"
+    "main.75c40403.js.map": "/venus/static/js/main.75c40403.js.map"
   },
   "entrypoints": [
-    "static/js/main.abb2011e.js"
+    "static/js/main.75c40403.js"
   ]
 }
