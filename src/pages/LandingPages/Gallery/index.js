@@ -9,7 +9,8 @@ import HeroVideoBackground from "../../../components/HeroVideoBackground";
 import MKButton from "../../../components/MKButton";
 import DefaultFooter from "../../../examples/Footers/DefaultFooter";
 import footerRoutes from "../../../footer.routes";
-import heroMp4 from "assets/video/golden_kiss_moment_simple.mp4";
+// import heroMp4 from "assets/video/golden_kiss_moment_simple.mp4";
+import heroMp4 from "assets/video/golden_kiss_moment_2.mp4";
 import { useTranslation } from "react-i18next";
 import venusLogo from "../../../assets/images/logo/logo.png";
 
