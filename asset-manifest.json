@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.js": "/venus/static/js/main.24f1cc23.js",
+    "main.js": "/venus/static/js/main.5fc4edc3.js",
     "static/media/golden_kiss_moment_2.mp4": "/venus/static/media/golden_kiss_moment_2.adc00acb07bf174fb59e.mp4",
-    "static/media/background2.jpg": "/venus/static/media/background2.debea55a24bc20be3d9e.jpg",
+    "static/media/information.jpg": "/venus/static/media/information.8eee9c0e527309a03795.jpg",
     "static/media/rotating-card-bg-front.jpeg": "/venus/static/media/rotating-card-bg-front.bdcdfadc0dacb9bc5f23.jpeg",
+    "static/media/test_banner_001.jpeg": "/venus/static/media/test_banner_001.f1fd45d15c585f3c5384.jpeg",
+    "static/media/contact_us_img.png": "/venus/static/media/contact_us_img.afd2461d92a4b265938f.png",
     "static/media/bg-coworking.jpeg": "/venus/static/media/bg-coworking.06bccc47fe6ae5366bf8.jpeg",
     "static/media/bg-sign-in-basic.jpeg": "/venus/static/media/bg-sign-in-basic.f327db1d0e4b00ba3c81.jpeg",
     "static/media/city-profile.jpg": "/venus/static/media/city-profile.4d64bba97c3d1757379e.jpg",
     "static/media/rotating-card-bg-back.jpeg": "/venus/static/media/rotating-card-bg-back.183088de91adb283a9ae.jpeg",
     "static/media/blog-9-4.jpg": "/venus/static/media/blog-9-4.de736e0b751f453415a5.jpg",
-    "static/media/illustration-reset.jpg": "/venus/static/media/illustration-reset.c5f36c0c2262b9ad6165.jpg",
     "static/media/waves-white.svg": "/venus/static/media/waves-white.7e7579c6e93ead70064fb4e8dd899f32.svg",
     "static/media/blog2.jpg": "/venus/static/media/blog2.aba7a3cb94805e9557d1.jpg",
     "static/media/bg2.jpg": "/venus/static/media/bg2.561b23be47f5f633635f.jpg",
@@ -35,9 +36,9 @@
     "static/media/logo-nasa.svg": "/venus/static/media/logo-nasa.c5d11f8820bfde5fd64db0074156e06c.svg",
     "static/media/logo-netflix.svg": "/venus/static/media/logo-netflix.432ed6b5c31b9bcab9a38e32bf46a1e9.svg",
     "index.html": "/venus/index.html",
-    "main.24f1cc23.js.map": "/venus/static/js/main.24f1cc23.js.map"
+    "main.5fc4edc3.js.map": "/venus/static/js/main.5fc4edc3.js.map"
   },
   "entrypoints": [
-    "static/js/main.24f1cc23.js"
+    "static/js/main.5fc4edc3.js"
   ]
 }
