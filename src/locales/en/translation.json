@@ -167,5 +167,14 @@
       "title": "Introductions per month",
       "description": "Video meetings and in-person dates every month."
     }
+  },
+  "contact_us": {
+    "title": "Contact us",
+    "desc": "For further questions please email venus@.com or contact using our contact form.",
+    "fullname": "Full name",
+    "email": "Email",
+    "content": "What can we help you?",
+    "placeholder": "Describe your point of view or desire.",
+    "button_text": "Send Message"
   }
 }

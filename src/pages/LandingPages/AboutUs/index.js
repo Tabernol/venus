@@ -38,7 +38,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 import venusLogo from "assets/images/logo/logo.png";
 // Images
-import bgImage from "assets/images/backgrounds/background2.jpg";
+import bgImage from "assets/images/backgrounds/test_banner_001.jpeg";
 
 function AboutUs() {
   return (

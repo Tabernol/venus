@@ -25,6 +25,7 @@ import MKTypography from "components/MKTypography";
 import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
 import CenteredBlogCard from "examples/Cards/BlogCards/CenteredBlogCard";
 import { useTranslation } from "react-i18next";
+import informationImg from "assets/images/home/information.jpg"
 
 function Information() {
   const { t } = useTranslation();
@@ -37,11 +38,7 @@ function Information() {
     const full = t("about.full", { returnObjects: true }) || [];
     const paragraph = full[0] || "";
 
-    const image =
-        t("about.image", {
-            defaultValue:
-                "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1600&auto=format&fit=crop",
-        }) || "";
+    const image = informationImg;
 
   return (
       <MKBox component="section" py={12}>
