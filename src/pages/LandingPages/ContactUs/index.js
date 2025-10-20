@@ -30,8 +30,9 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 import routes from "routes";
 import footerRoutes from "footer.routes";
 import { useTranslation } from "react-i18next";
-// Image
+// Images
 import bgImage from "assets/images/contact_us_img.png";
+import venusLogo from "assets/images/logo/logo.png";
 
 function ContactUs() {
   const { t } = useTranslation();
@@ -39,6 +40,7 @@ function ContactUs() {
     <>
       <MKBox position="fixed" top="0.5rem" width="100%">
         <DefaultNavbar
+          brand={{ name: "Venus", image: venusLogo, route: "/" }}
           routes={routes}
           // action={{
           //   type: "external",

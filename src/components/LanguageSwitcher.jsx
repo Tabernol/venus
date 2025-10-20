@@ -3,7 +3,7 @@ import { Button, Menu, MenuItem, ListItemText } from "@mui/material";
 import i18n from "../i18n";
 import { useTranslation } from "react-i18next";
 
-export default function LanguageSwitcher({ size = "small" }) {
+export default function LanguageSwitcher({ size = "small", light = false }) {
     const { t } = useTranslation();
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
@@ -22,7 +22,16 @@ export default function LanguageSwitcher({ size = "small" }) {
                 onClick={handleOpen}
                 size={size}
                 variant="outlined"
-                sx={{ textTransform: "uppercase", minWidth: 56 }}
+                sx={{
+                    textTransform: "uppercase",
+                    minWidth: 56,
+                    color: light ? "white" : "inherit",
+                    borderColor: light ? "rgba(255, 255, 255, 0.5)" : "rgba(0, 0, 0, 0.23)",
+                    "&:hover": {
+                        borderColor: light ? "white" : "rgba(0, 0, 0, 0.87)",
+                        backgroundColor: light ? "rgba(255, 255, 255, 0.08)" : "rgba(0, 0, 0, 0.04)",
+                    },
+                }}
             >
                 {current}
             </Button>

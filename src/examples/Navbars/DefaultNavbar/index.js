@@ -115,7 +115,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
               <Grid container wrap="nowrap" alignItems="center" columnGap={2} flexWrap="nowrap">
                 {items}
               </Grid>
-              <LanguageSwitcher />
+              <LanguageSwitcher light={light} />
               {action && (
                   action.type === "internal" ? (
                       <MKButton
