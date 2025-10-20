@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/venus/static/js/main.5fc4edc3.js",
+    "main.js": "/venus/static/js/main.a039e43c.js",
     "static/media/golden_kiss_moment_2.mp4": "/venus/static/media/golden_kiss_moment_2.adc00acb07bf174fb59e.mp4",
     "static/media/information.jpg": "/venus/static/media/information.8eee9c0e527309a03795.jpg",
     "static/media/rotating-card-bg-front.jpeg": "/venus/static/media/rotating-card-bg-front.bdcdfadc0dacb9bc5f23.jpeg",
@@ -36,9 +36,9 @@
     "static/media/logo-nasa.svg": "/venus/static/media/logo-nasa.c5d11f8820bfde5fd64db0074156e06c.svg",
     "static/media/logo-netflix.svg": "/venus/static/media/logo-netflix.432ed6b5c31b9bcab9a38e32bf46a1e9.svg",
     "index.html": "/venus/index.html",
-    "main.5fc4edc3.js.map": "/venus/static/js/main.5fc4edc3.js.map"
+    "main.a039e43c.js.map": "/venus/static/js/main.a039e43c.js.map"
   },
   "entrypoints": [
-    "static/js/main.5fc4edc3.js"
+    "static/js/main.a039e43c.js"
   ]
 }
