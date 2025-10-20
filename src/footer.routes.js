@@ -15,10 +15,10 @@ export default {
   brand: {
     name: "Venus",
     image: venusLogo,
-    route: "/", // внутрішній маршрут на головну
+    route: "/",
   },
 
-  // Нове: масив партнерів (зовнішній лінк через href)
+  // partners
   partners: [
     {
       name: "Ukrainian Matchmakers Alliance",
@@ -32,20 +32,17 @@ export default {
     }
   ],
 
-  // Лишаємо тільки Facebook та Instagram
+  // Facebook and Instagram
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "https://www.facebook.com/yourpage", // заміни на твою сторінку
+      link: "https://www.facebook.com/yourpage", // todo change fb page
     },
     {
       icon: <InstagramIcon />,
-      link: "https://www.instagram.com/yourprofile", // заміни на твій профіль
+      link: "https://www.instagram.com/venus_date",
     },
   ],
-
-  // Меню прибрано
-  // menus: [],
 
   copyright: (
       <MKTypography variant="button" color="text" fontWeight="regular">
