@@ -176,9 +176,14 @@
     "desc": "For further questions please email veneramatchmaking@gmail.com or contact using our contact form.",
     "fullname": "Full name",
     "email": "Email",
+    "email_invalid": "Please enter a valid email address",
     "content": "What can we help you?",
     "placeholder": "Describe your point of view or desire.",
-    "button_text": "Send Message"
+    "button_text": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Failed to send message. Please try again.",
+    "captcha_required": "Please verify that you are not a robot"
   },
   "blog": {
     "page_title": "Our Blog",
