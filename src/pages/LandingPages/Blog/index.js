@@ -51,17 +51,6 @@ export default function Blog() {
             justifyContent="center"
             sx={{ mx: "auto", textAlign: "center" }}
           >
-            <MKTypography
-              variant="h1"
-              color="white"
-              sx={({ breakpoints, typography: { size } }) => ({
-                [breakpoints.down("md")]: {
-                  fontSize: size["3xl"],
-                },
-              })}
-            >
-              {t("blog.page_title")}
-            </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mt={2}>
               {t("blog.page_subtitle")}
             </MKTypography>
