@@ -173,7 +173,7 @@
   },
   "contact_us": {
     "title": "Contact us",
-    "desc": "For further questions please email venus@.com or contact using our contact form.",
+    "desc": "For further questions please email veneramatchmaking@gmail.com or contact using our contact form.",
     "fullname": "Full name",
     "email": "Email",
     "content": "What can we help you?",
@@ -748,6 +748,169 @@
           {
             "type": "text",
             "value": "Now they live happily and remember how their love story began."
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "slug": "love-beyond-borders",
+        "title": "Love Beyond Borders",
+        "excerpt": "Moving to another country is always an exciting and important decision. How to successfully adapt to a new life? Advice from Venus agency and real client stories.",
+        "image": "blog-post-5.jpg",
+        "date": "2025-02-05",
+        "author": "Viktoria and Olga",
+        "content": [
+          {
+            "type": "text",
+            "value": "Moving to another country is always an exciting and important decision that opens new opportunities."
+          },
+          {
+            "type": "text",
+            "value": "Some people meet for international marriage in advance, while others already see themselves in a new family and are preparing to relocate."
+          },
+          {
+            "type": "text",
+            "value": "How does this happen, what difficulties do they face, and how to facilitate successful adaptation — we decided to turn to one of the partner marriage agencies in Poltava — Venus."
+          },
+          {
+            "type": "text",
+            "value": "The rules below include only general recommendations."
+          },
+          {
+            "type": "text",
+            "value": "Since an individual approach is developed for each client depending on the country and situation."
+          },
+          {
+            "type": "heading",
+            "value": "Rule #1. Clarity"
+          },
+          {
+            "type": "text",
+            "value": "Understand clearly what you want from relocation and whether you are sure that you can not just go, but also live in another country."
+          },
+          {
+            "type": "text",
+            "value": "Love is wonderful, but you need to be realistic about what awaits you: new conditions, climate, language, culture, cuisine, traditions, and even everyday details."
+          },
+          {
+            "type": "text",
+            "value": "It is very important to be honest with yourself and with your future husband: what you expect, what you hope for, whether you are ready to adapt."
+          },
+          {
+            "type": "text",
+            "value": "Be honest about your own wishes — first and foremost with yourself."
+          },
+          {
+            "type": "heading",
+            "value": "Rule #2. Don't Rush Things"
+          },
+          {
+            "type": "text",
+            "value": "Before making a final decision, it's worth visiting the new country in advance — as a tourist."
+          },
+          {
+            "type": "text",
+            "value": "Get acquainted with its atmosphere, people, lifestyle, understand if it suits you."
+          },
+          {
+            "type": "text",
+            "value": "Men usually help organize the trip, and the agency will help with documents if necessary."
+          },
+          {
+            "type": "heading",
+            "value": "Rule #3. Patience"
+          },
+          {
+            "type": "text",
+            "value": "In new bureaucratic states (and there are most of them) obtaining visas, documents, marriage certificates and other papers takes time."
+          },
+          {
+            "type": "text",
+            "value": "Don't get irritated and rush — the process can take months."
+          },
+          {
+            "type": "text",
+            "value": "Let everything take its course: it's important to maintain calm and readiness for changes."
+          },
+          {
+            "type": "heading",
+            "value": "Rule #4. Respect"
+          },
+          {
+            "type": "text",
+            "value": "Every country has its own traditions, behavioral norms, and even attitudes towards marriage."
+          },
+          {
+            "type": "text",
+            "value": "Everything that seemed familiar in Ukraine may be perceived differently abroad."
+          },
+          {
+            "type": "text",
+            "value": "Therefore, it's important not only to accept the new culture, but also to respect it."
+          },
+          {
+            "type": "text",
+            "value": "Don't argue if something is unfamiliar — observe, learn, adapt."
+          },
+          {
+            "type": "heading",
+            "value": "Rule #5. Don't Forget About Yourself"
+          },
+          {
+            "type": "text",
+            "value": "Life abroad is a new stage, but it's important to preserve yourself, your hobbies and inner world."
+          },
+          {
+            "type": "text",
+            "value": "Ukrainian women are strong and independent, and that's exactly what attracts men."
+          },
+          {
+            "type": "text",
+            "value": "Let your habits and talents stay with you."
+          },
+          {
+            "type": "text",
+            "value": "Be a woman who inspires."
+          },
+          {
+            "type": "text",
+            "value": "Venus marriage agency notes: most successful stories are associated with those women who consciously approached relocation, prepared in advance, studied the culture and language of the new country, maintained inner harmony and self-respect."
+          },
+          {
+            "type": "text",
+            "value": "As the agency director says, \"each love story has its own formula for success. The main thing is to be yourself and believe in the best.\""
+          },
+          {
+            "type": "heading",
+            "value": "Client Experience"
+          },
+          {
+            "type": "text",
+            "value": "Svetlana, 37, Germany:"
+          },
+          {
+            "type": "text",
+            "value": "\"My move took place in 2016. At first it was scary, but the agency helped with documents, visa, and most importantly — with psychological preparation."
+          },
+          {
+            "type": "text",
+            "value": "Now I live in Cologne, we have a son and everything is good. The main thing is not to rush, but to move forward in small steps.\""
+          },
+          {
+            "type": "text",
+            "value": "Olga, 29, Italy:"
+          },
+          {
+            "type": "text",
+            "value": "\"When I moved, they helped me adapt and even find work."
+          },
+          {
+            "type": "text",
+            "value": "I completed Italian language courses and now work in a children's center."
+          },
+          {
+            "type": "text",
+            "value": "Everything worked out because I wasn't afraid to learn new things.\""
           }
         ]
       }
