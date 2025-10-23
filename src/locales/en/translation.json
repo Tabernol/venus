@@ -931,6 +931,12 @@
         "image": "anna_thomas.jpg",
         "name": "Anna and Thomas",
         "story": "They met in a coffee shop and never parted again. Their shared passion for travel and photography brought them together forever..."
+      },
+      {
+        "id": "3",
+        "image": "nina_genrih.jpg",
+        "name": "Nina and Genrih",
+        "story": "They met in a coffee shop and never parted again. Their shared passion for travel and photography brought them together forever..."
       }
     ]
   }
