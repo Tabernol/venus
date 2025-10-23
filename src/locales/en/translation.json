@@ -10,7 +10,10 @@
   "gall": {
     "title": "Let's create your perfect wedding day"
   },
-  "languages": { "en": "English", "uk": "Українська" },
+  "languages": {
+    "en": "English",
+    "uk": "Українська"
+  },
   "about": {
     "heading": "About us",
     "tagline": "Venus International Matchmaking — since 2008 we help people find love across borders.",
@@ -284,87 +287,467 @@
       },
       {
         "id": "2",
-        "slug": "preparing-for-international-relationship",
-        "title": "Preparing for an International Relationship",
-        "excerpt": "Essential tips and insights for anyone considering or starting an international relationship. What you need to know before taking the leap.",
+        "slug": "marry-a-foreigner",
+        "title": "Marrying a Foreigner",
+        "excerpt": "Today, marriages with citizens of other countries are becoming increasingly popular. What's the reason? We explore the statistics and trends of international marriages.",
         "image": "blog-post-2.jpg",
         "date": "2025-01-20",
-        "author": "Viktoria Lysanenko",
+        "author": "Viktoria and Olga",
         "content": [
           {
             "type": "text",
-            "value": "Starting an international relationship is an exciting adventure, but it also requires preparation and understanding. Here are key aspects to consider before embarking on this journey."
+            "value": "Today, marriages with citizens of other countries are becoming increasingly popular."
+          },
+          {
+            "type": "text",
+            "value": "What's the reason? The Ukrainian marriage agency \"Venus\" agreed to help us understand this issue, as they have been successfully helping Ukrainian brides find grooms from abroad for more than 10 years."
           },
           {
             "type": "heading",
-            "value": "Cultural Understanding"
+            "value": "International Marriages in Numbers"
           },
           {
             "type": "text",
-            "value": "Every culture has its own dating customs, family expectations, and communication styles. Taking time to learn about your partner's cultural background shows respect and helps avoid misunderstandings. We offer cultural coaching to help our clients navigate these differences gracefully."
+            "value": "So, let's see what we have."
+          },
+          {
+            "type": "text",
+            "value": "According to research by the French National Institute of Statistics Insee, based on data from 2015, almost 27% of all marriages concluded in France are international."
+          },
+          {
+            "type": "text",
+            "value": "In 2015, 236,300 marriages were registered, of which 75,800 were with foreigners."
+          },
+          {
+            "type": "text",
+            "value": "For example, in Germany, more than a million people are married to foreigners — this is approximately 7% of the total."
+          },
+          {
+            "type": "text",
+            "value": "It should be noted that most marriages in Germany are concluded within the country, but the divorce rate is quite high: every third marriage ends in divorce."
+          },
+          {
+            "type": "text",
+            "value": "The parents of every fourth child born in Germany are foreigners (according to 2015 data)."
+          },
+          {
+            "type": "text",
+            "value": "In addition, there are significantly more men than women in Germany, so many German men are looking for a life partner in other countries."
+          },
+          {
+            "type": "text",
+            "value": "Often they are in no hurry to marry and postpone having children."
+          },
+          {
+            "type": "text",
+            "value": "According to Venus agency data, marriages with Germans account for about 67% of all successful stories of their clients."
           },
           {
             "type": "heading",
-            "value": "Clear Communication"
+            "value": "USA and Other Countries"
           },
           {
             "type": "text",
-            "value": "Language barriers can be challenging, but they're not insurmountable. Whether you're learning each other's languages or using translation services, what matters most is honest, open communication about your intentions, expectations, and feelings."
+            "value": "The USA is one of the most open countries in terms of international marriages."
+          },
+          {
+            "type": "text",
+            "value": "America was the first to pay attention to protecting foreign brides."
+          },
+          {
+            "type": "text",
+            "value": "According to IMBRA requirements, all marriage agencies working with foreigners are required to provide accurate information about men: absence of criminal records, financial status, presence of minor children, propensity to violence, etc."
+          },
+          {
+            "type": "text",
+            "value": "This is done so that women feel protected and confident in the future."
+          },
+          {
+            "type": "text",
+            "value": "Venus marriage agency recommends that all its clients carefully check documents and, if possible, conclude a prenuptial agreement to protect themselves."
           },
           {
             "type": "heading",
-            "value": "Practical Considerations"
+            "value": "The East Is Also Opening Up"
           },
           {
             "type": "text",
-            "value": "International relationships involve visa processes, travel arrangements, and potentially relocation. Being informed about these practical aspects from the beginning helps you plan realistically and avoid surprises down the road."
+            "value": "Now even Japan is opening up for international marriages."
           },
           {
             "type": "text",
-            "value": "At Venus, we provide comprehensive support including visa assistance, document preparation, and post-marriage adaptation help. Our goal is to make your journey as smooth as possible."
+            "value": "The percentage of marriages with foreigners there is still small — about 2%, but it is steadily growing."
+          },
+          {
+            "type": "text",
+            "value": "Men from Japan take family and marriage seriously, are attentive and respectful — true gentlemen."
+          },
+          {
+            "type": "heading",
+            "value": "Ukraine in International Statistics"
+          },
+          {
+            "type": "text",
+            "value": "According to statistics, in 2015, 310 families were created in Ukraine in which one of the spouses was a foreigner."
+          },
+          {
+            "type": "text",
+            "value": "These figures show that the 21st century is erasing borders, and international marriages are becoming the norm."
+          },
+          {
+            "type": "text",
+            "value": "Ukrainian women should not be afraid to seek their happiness abroad."
+          },
+          {
+            "type": "text",
+            "value": "The main thing is to do it consciously and with an understanding of all the nuances."
+          },
+          {
+            "type": "text",
+            "value": "To simplify entry into Europe and avoid possible difficulties, it is recommended to study the rules of residence and your partner's documents in advance."
+          },
+          {
+            "type": "text",
+            "value": "The first meeting and acquaintance is always safer on the territory of your own country, and if something raises doubts — it is better to contact a trusted agency that carefully checks men."
           }
         ]
       },
       {
         "id": "3",
-        "slug": "psychology-of-lasting-relationships",
-        "title": "The Psychology of Lasting Relationships",
-        "excerpt": "Insights from our psychological approach to matchmaking. How inner work and self-awareness lead to healthier, happier partnerships.",
+        "slug": "first-date-secrets",
+        "title": "First Date — Secrets of Success",
+        "excerpt": "You met an interesting man online, and it's time for the first date. How wonderful it sounds! Learn the secrets of a successful first date from Venus agency experts.",
         "image": "blog-post-3.jpg",
         "date": "2025-01-25",
-        "author": "Olga Nechaieva",
+        "author": "Viktoria and Olga",
         "content": [
           {
             "type": "text",
-            "value": "After 15 years as a matchmaker and psychologist, I've learned that successful relationships start from within. Before you can build a healthy partnership with someone else, you need to understand yourself."
+            "value": "You met an interesting man online, and it's time for the first date."
+          },
+          {
+            "type": "text",
+            "value": "How wonderful it sounds — \"first date\"!"
+          },
+          {
+            "type": "text",
+            "value": "So many hopes... so much effort..."
+          },
+          {
+            "type": "text",
+            "value": "And suddenly it seems like everything went wonderfully, but the man no longer calls or writes."
+          },
+          {
+            "type": "text",
+            "value": "And you can't understand what went wrong and what your mistake was."
+          },
+          {
+            "type": "text",
+            "value": "We decided to help solve the eternal question — how to behave on a first date."
+          },
+          {
+            "type": "text",
+            "value": "Venus International Marriage Agency has helped organize hundreds of first dates, and we can certainly be experts on this issue."
+          },
+          {
+            "type": "text",
+            "value": "Of course, our advice is primarily suitable for dates with foreigners, but will certainly be useful to each of you."
           },
           {
             "type": "heading",
-            "value": "Self-Awareness First"
+            "value": "Clothing"
           },
           {
             "type": "text",
-            "value": "Our transformational game 'Cupid' helps clients explore their relationship patterns, identify inner barriers, and understand what they truly seek in a partner. This self-work is invaluable—it prevents repeating past mistakes and helps you make conscious choices."
+            "value": "What do you think about when getting ready for a first date?"
+          },
+          {
+            "type": "text",
+            "value": "The same thought keeps spinning in your head — \"What should I wear?\""
+          },
+          {
+            "type": "text",
+            "value": "And that's right. As they say: \"You're judged by your appearance.\""
+          },
+          {
+            "type": "text",
+            "value": "But the main thing is not to overdo it."
+          },
+          {
+            "type": "text",
+            "value": "Any girl wants to impress a man with her beauty at first sight. But you should remember what kind of man you're looking for."
+          },
+          {
+            "type": "text",
+            "value": "If external effects are important to someone, then for serious relationships, the image should be natural but modest."
+          },
+          {
+            "type": "text",
+            "value": "You don't need to show all your \"trump cards\" at once."
+          },
+          {
+            "type": "text",
+            "value": "This attracts men who are interested more in entertainment than in family."
+          },
+          {
+            "type": "text",
+            "value": "This is especially true for foreign men, because in many countries girls dress more modestly than in Ukraine."
+          },
+          {
+            "type": "text",
+            "value": "Shoes are also very important."
+          },
+          {
+            "type": "text",
+            "value": "Choose between shoes with a small heel and fashionable shoes without heels — the main thing is that you are comfortable."
+          },
+          {
+            "type": "text",
+            "value": "Don't wear new items that you haven't broken in yet, and avoid too high heels."
+          },
+          {
+            "type": "text",
+            "value": "If you're not sure — it's time to wear classics."
           },
           {
             "type": "heading",
-            "value": "Beyond Surface Compatibility"
+            "value": "Makeup"
           },
           {
             "type": "text",
-            "value": "While shared interests are nice, lasting relationships are built on aligned values, compatible life goals, and mutual respect. We focus on these deeper aspects when matching our clients, ensuring connections that can weather life's challenges."
+            "value": "Makeup is an integral part of your image."
           },
           {
             "type": "text",
-            "value": "Psychological support doesn't end with the match. We continue to provide guidance as relationships develop, helping couples navigate conflicts, cultural adjustments, and major life transitions together."
+            "value": "How tempting it is to make your lips bigger, eyes brighter, and cheekbones sharper!"
+          },
+          {
+            "type": "text",
+            "value": "But remember: everything is good in moderation."
+          },
+          {
+            "type": "text",
+            "value": "Don't turn your first date into a makeup artist skills demonstration."
+          },
+          {
+            "type": "text",
+            "value": "Especially if you met online, where he will see you in person for the first time."
+          },
+          {
+            "type": "text",
+            "value": "We recommend natural makeup that will help reveal your natural beauty."
           },
           {
             "type": "heading",
-            "value": "Building Trust"
+            "value": "Fragrance"
           },
           {
             "type": "text",
-            "value": "Trust is the foundation of any relationship, especially international ones where distance and cultural differences can create uncertainty. We help our clients build trust gradually—through honest communication, consistent actions, and supported decision-making."
+            "value": "Fragrance is the finishing note of your image."
+          },
+          {
+            "type": "text",
+            "value": "Your perfume should not be too sharp or sweet."
+          },
+          {
+            "type": "text",
+            "value": "We recommend choosing light, neutral and fresh fragrances."
+          },
+          {
+            "type": "heading",
+            "value": "Mistakes or What Not to Do and What Not to Talk About"
+          },
+          {
+            "type": "text",
+            "value": "Don't talk about the past."
+          },
+          {
+            "type": "text",
+            "value": "Many girls like to talk about past relationships and discuss ex-partners."
+          },
+          {
+            "type": "text",
+            "value": "This is FORBIDDEN on a first date."
+          },
+          {
+            "type": "text",
+            "value": "Try to give all your attention to the man — let the first date be dedicated to him."
+          },
+          {
+            "type": "text",
+            "value": "Don't complain."
+          },
+          {
+            "type": "text",
+            "value": "Complaining about life, work, family or men is a bad idea."
+          },
+          {
+            "type": "text",
+            "value": "Men don't like to listen to negativity."
+          },
+          {
+            "type": "text",
+            "value": "Even if life isn't perfect right now, leave it outside the cafe doors."
+          },
+          {
+            "type": "text",
+            "value": "Keep a positive attitude — and this will be the key to a successful meeting."
+          },
+          {
+            "type": "text",
+            "value": "Don't be late."
+          },
+          {
+            "type": "text",
+            "value": "If a man came from another country and is in Ukraine for the first time, don't make him wait."
+          },
+          {
+            "type": "text",
+            "value": "Punctuality is a sign of respect."
+          },
+          {
+            "type": "text",
+            "value": "What if you don't know the language?"
+          },
+          {
+            "type": "text",
+            "value": "A translator will come to your aid."
+          },
+          {
+            "type": "text",
+            "value": "Don't worry — it's your helper, not a barrier."
+          },
+          {
+            "type": "text",
+            "value": "If you haven't started learning the language yet, it's okay."
+          },
+          {
+            "type": "text",
+            "value": "The best relationships are born in the process of communication, even if you use gestures and emotions."
+          },
+          {
+            "type": "text",
+            "value": "Remember that any man expects a smile and friendliness from a woman — this is a universal language."
+          },
+          {
+            "type": "text",
+            "value": "And yes, love at first sight does happen!"
+          },
+          {
+            "type": "text",
+            "value": "But if it didn't happen right away — no problem."
+          },
+          {
+            "type": "text",
+            "value": "The main thing is to be yourself, not play a role, and just enjoy the meeting."
+          },
+          {
+            "type": "text",
+            "value": "Let it be the beginning of something beautiful."
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "slug": "love-at-a-distance",
+        "title": "Love at a Distance",
+        "excerpt": "We live in the 21st century, and it's quite possible that your love is not only in another city but in another country. A real story of online dating.",
+        "image": "blog-post-4.jpg",
+        "date": "2025-01-30",
+        "author": "Viktoria and Olga",
+        "content": [
+          {
+            "type": "text",
+            "value": "We live in the 21st century."
+          },
+          {
+            "type": "text",
+            "value": "In our time, we can't do without computers and the internet. And it's quite possible that your love is not only in another city but in another country."
+          },
+          {
+            "type": "text",
+            "value": "It's quite likely that your beloved is sitting on a dating site right now looking for you."
+          },
+          {
+            "type": "text",
+            "value": "According to a study by American scientists (surveying more than 20,000 married people), 36% of marriages were created through online dating."
+          },
+          {
+            "type": "text",
+            "value": "And Ukraine is not far behind the USA: in our country, more than 20% of couples find each other online."
+          },
+          {
+            "type": "text",
+            "value": "We turned to Venus International Marriage Agency for a successful example of virtual dating."
+          },
+          {
+            "type": "text",
+            "value": "With the permission of their clients, we present to you fragments of their romantic story."
+          },
+          {
+            "type": "heading",
+            "value": "The Correspondence"
+          },
+          {
+            "type": "message",
+            "sender": "male",
+            "value": "Hi! I saw your smile and couldn't help but write. It was nice to learn that behind this beautiful smile is such an interesting person. :)\n\nI love traveling. How do you spend your free time?\n\nI see you work — what do you do?\n\nAre you so serious?\n\nAbout myself: I'm a programmer, I live in Frankfurt. I love my work, my family, I love mathematics. I hope you won't consider me boring.\n\nTell me, which cities of Ukraine do you love? I've always wanted to explore them. I hope you'll like my letter and respond."
+          },
+          {
+            "type": "message",
+            "sender": "female",
+            "value": "In my free time... I really love traveling, and as soon as I manage to get a couple of free days — I go to conquer new cities of Ukraine.\n\nMy hobby: sports and ballet.\n\nI always try to stay in shape. True, I can't stand when people lie. Maybe it's not the best trait.\n\nBut that's who I am.\n\nP.S. Friends call me Panther. :)"
+          },
+          {
+            "type": "message",
+            "sender": "male",
+            "value": "Hi, Nadya. I hope I can call you that. :)\n\nYou know, I also don't like lies. I've had enough of them, and I try to avoid people who are insincere.\n\nI like you.\n\nYou're a beautiful and smart girl — a rare combination!\n\nI've always respected strong women, especially in Ukraine.\n\nI have little time, I work all the time and travel. Maybe it's my destiny..."
+          },
+          {
+            "type": "message",
+            "sender": "female",
+            "value": "Christoph, your letter made me smile. A magician? Really?\n\nWell, in a sense, yes. :)\n\nYou ask what I do, if I've been to Poland?\n\nYes, I have — both in Warsaw and Gdansk. Magical places!\n\nWhat's closer to you — mountains or sea?\n\nThe sea is closer to me, I dream of going to Italy one day.\n\nChristoph, I didn't think it was possible to meet such an interesting person through the internet.\n\nI thought: why not give it a try. :)\n\nAnd here I am.\n\nI liked how seriously you talked about yourself and your life.\n\nIt was sweet."
+          },
+          {
+            "type": "message",
+            "sender": "male",
+            "value": "Nadya, it's very easy for me to communicate with you. It's nice when you're understood.\n\nI hope we'll get to know each other even better.\n\nYou know, I'm already seriously thinking about meeting.\n\nIt's cold in Germany now, but it's probably warmer where you are.\n\nI'd like to come in spring.\n\nWhat do you think about that?\n\nI love when everything happens naturally.\n\nI really like you."
+          },
+          {
+            "type": "message",
+            "sender": "female",
+            "value": "That sounds unexpected, but pleasant.\n\nYes, it's already warm and beautiful here in spring.\n\nThe park blooms, everything around comes to life.\n\nI think it will be a wonderful time to meet.\n\nI love when everything just falls into place. :)"
+          },
+          {
+            "type": "message",
+            "sender": "male",
+            "value": "You know, Nadya, this was all unexpected.\n\nI can't say I'm a romantic, but you've changed my idea of love.\n\nTell me, is it the sea that draws you so much?\n\nYou wrote about Italy — I was there a couple of years ago.\n\nIt's an amazing country.\n\nI'd love to show it to you.\n\nIf you want — write your address.\n\nI'll send you a postcard from Frankfurt."
+          },
+          {
+            "type": "message",
+            "sender": "female",
+            "value": "Christoph, like any girl, I love roses, chocolate and perfume.\n\nI'll be happy with any postcard from your hometown. ❤️"
+          },
+          {
+            "type": "message",
+            "sender": "male",
+            "value": "Nadya, don't worry! If it makes you feel better — you're not alone, I'm here.\n\nYou know, I think we're very similar.\n\nYou're smart, kind and genuine.\n\nYou'll receive my letter soon, and I'm looking forward to our conversation.\n\nMaybe someday we'll meet not only with words, but with our eyes."
+          },
+          {
+            "type": "text",
+            "value": "Their correspondence continued for several more months."
+          },
+          {
+            "type": "text",
+            "value": "Christoph kept his word and flew to Poltava."
+          },
+          {
+            "type": "text",
+            "value": "They spent several weeks together, and three months later they had a wedding in Germany."
+          },
+          {
+            "type": "text",
+            "value": "Now they live happily and remember how their love story began."
           }
         ]
       }

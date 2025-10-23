@@ -23,24 +23,24 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Images
-import couple1Image from "assets/images/couples/pair1/couple1.jpg";
+import olgaScott from "assets/images/couples/olga_scott.jpg";
+import annaThomas from "assets/images/couples/anna_thomas.jpg";
 
 function CouplesStories() {
   // Array of couples data - you can easily add more couples here
   const couplesData = [
     {
       id: 1,
-      image: couple1Image,
-      name: "Emma & James",
+      image: olgaScott,
+      name: "Olga & Scott",
       story: "A beautiful love story that began on a sunny afternoon in Paris. Their journey together has been filled with adventure, laughter, and endless support for one another.",
     },
-    // Add more couples here as you add more images
-    // {
-    //   id: 2,
-    //   image: couple2Image,
-    //   name: "Sophia & Michael",
-    //   story: "Met at a coffee shop and never looked back. Their shared passion for travel and photography brought them together...",
-    // },
+    {
+      id: 2,
+      image: annaThomas,
+      name: "Anna & Thomas",
+      story: "Met at a coffee shop and never looked back. Their shared passion for travel and photography brought them together...",
+    },
     // {
     //   id: 3,
     //   image: couple3Image,

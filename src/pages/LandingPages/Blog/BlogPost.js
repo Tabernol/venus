@@ -150,6 +150,39 @@ function BlogPost() {
                       );
                     }
 
+                    if (block.type === "message") {
+                      return (
+                        <MKBox
+                          key={index}
+                          mb={2}
+                          p={2}
+                          sx={{
+                            backgroundColor:
+                              block.sender === "male"
+                                ? "rgba(33, 150, 243, 0.1)"
+                                : "rgba(233, 30, 99, 0.1)",
+                            borderLeft: `4px solid ${
+                              block.sender === "male"
+                                ? "#2196F3"
+                                : "#E91E63"
+                            }`,
+                            borderRadius: "8px",
+                          }}
+                        >
+                          <MKTypography
+                            variant="body1"
+                            color="text"
+                            sx={{
+                              lineHeight: 1.8,
+                              whiteSpace: "pre-line",
+                            }}
+                          >
+                            {block.value}
+                          </MKTypography>
+                        </MKBox>
+                      );
+                    }
+
                     if (block.type === "image") {
                       return (
                         <MKBox key={index} my={4}>
