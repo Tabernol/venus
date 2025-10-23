@@ -915,5 +915,23 @@
         ]
       }
     ]
+  },
+  "gallery": {
+    "title": "Love Stories",
+    "subtitle": "Discover the beautiful stories of couples who found their perfect match",
+    "couples": [
+      {
+        "id": "1",
+        "image": "olga_scott.jpg",
+        "name": "Olga and Scott",
+        "story": "A wonderful love story that began on a sunny day in Paris. Their journey together has been filled with adventures, laughter, and endless support for one another."
+      },
+      {
+        "id": "2",
+        "image": "anna_thomas.jpg",
+        "name": "Anna and Thomas",
+        "story": "They met in a coffee shop and never parted again. Their shared passion for travel and photography brought them together forever..."
+      }
+    ]
   }
 }

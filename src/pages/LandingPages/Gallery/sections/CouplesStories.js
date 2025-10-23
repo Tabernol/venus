@@ -21,33 +21,21 @@ import Card from "@mui/material/Card";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
+import { useTranslation } from "react-i18next";
 
 // Images
 import olgaScott from "assets/images/couples/olga_scott.jpg";
 import annaThomas from "assets/images/couples/anna_thomas.jpg";
 
 function CouplesStories() {
-  // Array of couples data - you can easily add more couples here
-  const couplesData = [
-    {
-      id: 1,
-      image: olgaScott,
-      name: "Olga & Scott",
-      story: "A beautiful love story that began on a sunny afternoon in Paris. Their journey together has been filled with adventure, laughter, and endless support for one another.",
-    },
-    {
-      id: 2,
-      image: annaThomas,
-      name: "Anna & Thomas",
-      story: "Met at a coffee shop and never looked back. Their shared passion for travel and photography brought them together...",
-    },
-    // {
-    //   id: 3,
-    //   image: couple3Image,
-    //   name: "Isabella & Alexander",
-    //   story: "A chance encounter at a bookstore turned into the greatest love story. They bond over literature and art...",
-    // },
-  ];
+  const { t } = useTranslation();
+  const couplesData = t("gallery.couples", { returnObjects: true }) || [];
+
+  // Map images to couples
+  const imageMap = {
+    "olga_scott.jpg": olgaScott,
+    "anna_thomas.jpg": annaThomas,
+  };
 
   return (
     <MKBox component="section" py={6}>
@@ -55,10 +43,10 @@ function CouplesStories() {
         <Grid container item xs={12} lg={10} sx={{ mx: "auto", mb: 6 }}>
           <MKBox width="100%" textAlign="center">
             <MKTypography variant="h2" fontWeight="bold" mb={1}>
-              Love Stories
+              {t("gallery.title")}
             </MKTypography>
             <MKTypography variant="body1" color="text" mb={2}>
-              Discover the beautiful journeys of couples who found their perfect match
+              {t("gallery.subtitle")}
             </MKTypography>
           </MKBox>
         </Grid>
@@ -70,7 +58,7 @@ function CouplesStories() {
                   <MKBox position="relative" borderRadius="lg" mx={2} mt={-3}>
                     <MKBox
                       component="img"
-                      src={couple.image}
+                      src={imageMap[couple.image]}
                       alt={couple.name}
                       borderRadius="lg"
                       width="100%"
@@ -86,7 +74,7 @@ function CouplesStories() {
                       left={0}
                       top={0}
                       sx={{
-                        backgroundImage: `url(${couple.image})`,
+                        backgroundImage: `url(${imageMap[couple.image]})`,
                         transform: "scale(0.94)",
                         filter: "blur(12px)",
                         backgroundSize: "cover",
@@ -94,7 +82,7 @@ function CouplesStories() {
                     />
                   </MKBox>
                   <MKBox p={3} mt={-1} textAlign="center">
-                    <MKTypography display="inline" variant="h5" textTransform="capitalize" fontWeight="regular">
+                    <MKTypography display="inline" variant="h5" fontWeight="regular">
                       {couple.name}
                     </MKTypography>
                     <MKBox mt={1} mb={2}>
