@@ -25,6 +25,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 // Material Kit 2 React themes
 import theme from "assets/theme";
 import Presentation from "layouts/pages/presentation";
+import BlogPost from "pages/LandingPages/Blog/BlogPost";
 
 // Material Kit 2 React routes
 import routes from "routes";
@@ -57,6 +58,7 @@ export default function App() {
             <Routes>
                 {flatRoutes}
                 <Route path="/presentation" element={<Presentation />} />
+                <Route path="/blog/:slug" element={<BlogPost />} />
                 {/* редірект на домашню (налаштовано на "/") */}
                 <Route path="*" element={<Navigate to="/" />} />
             </Routes>

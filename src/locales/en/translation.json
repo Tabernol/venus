@@ -176,5 +176,138 @@
     "content": "What can we help you?",
     "placeholder": "Describe your point of view or desire.",
     "button_text": "Send Message"
+  },
+  "blog": {
+    "page_title": "Our Blog",
+    "page_subtitle": "Stories, insights, and tips about international matchmaking and building meaningful relationships",
+    "read_more": "Read More",
+    "back_to_blog": "Back to Blog",
+    "posts": [
+      {
+        "id": "1",
+        "slug": "finding-love-across-borders",
+        "title": "Finding Love Across Borders",
+        "excerpt": "How international matchmaking creates meaningful connections and changes lives. Real stories from our 15 years of experience.",
+        "image": "blog-post-1.jpg",
+        "date": "2025-01-15",
+        "author": "Viktoria & Olga",
+        "content": [
+          {
+            "type": "text",
+            "value": "International matchmaking is more than just introducing two people from different countries. It's about creating bridges between cultures, understanding different mindsets, and helping two souls find each other despite geographical distances."
+          },
+          {
+            "type": "text",
+            "value": "Over our 15 years of experience at Venus International Matchmaking, we've seen countless success stories. From the first nervous video call to walking down the aisle together, each journey is unique and beautiful."
+          },
+          {
+            "type": "heading",
+            "value": "The Power of Connection"
+          },
+          {
+            "type": "text",
+            "value": "Love knows no borders, but successful international relationships require understanding, patience, and proper guidance. We help our clients navigate cultural differences, language barriers, and logistical challenges to build strong, lasting relationships."
+          },
+          {
+            "type": "text",
+            "value": "Our approach combines professional matchmaking with psychological support, ensuring that both partners are ready for the journey ahead. We believe in quality over quantity—every introduction is carefully considered and personalized."
+          },
+          {
+            "type": "heading",
+            "value": "Success Stories"
+          },
+          {
+            "type": "text",
+            "value": "We're proud to have facilitated over 50 happy couples and welcomed 17 babies into families that started with our help. Each story reminds us why we do what we do—bringing people together and creating happiness across continents."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "slug": "preparing-for-international-relationship",
+        "title": "Preparing for an International Relationship",
+        "excerpt": "Essential tips and insights for anyone considering or starting an international relationship. What you need to know before taking the leap.",
+        "image": "blog-post-2.jpg",
+        "date": "2025-01-20",
+        "author": "Viktoria Lysanenko",
+        "content": [
+          {
+            "type": "text",
+            "value": "Starting an international relationship is an exciting adventure, but it also requires preparation and understanding. Here are key aspects to consider before embarking on this journey."
+          },
+          {
+            "type": "heading",
+            "value": "Cultural Understanding"
+          },
+          {
+            "type": "text",
+            "value": "Every culture has its own dating customs, family expectations, and communication styles. Taking time to learn about your partner's cultural background shows respect and helps avoid misunderstandings. We offer cultural coaching to help our clients navigate these differences gracefully."
+          },
+          {
+            "type": "heading",
+            "value": "Clear Communication"
+          },
+          {
+            "type": "text",
+            "value": "Language barriers can be challenging, but they're not insurmountable. Whether you're learning each other's languages or using translation services, what matters most is honest, open communication about your intentions, expectations, and feelings."
+          },
+          {
+            "type": "heading",
+            "value": "Practical Considerations"
+          },
+          {
+            "type": "text",
+            "value": "International relationships involve visa processes, travel arrangements, and potentially relocation. Being informed about these practical aspects from the beginning helps you plan realistically and avoid surprises down the road."
+          },
+          {
+            "type": "text",
+            "value": "At Venus, we provide comprehensive support including visa assistance, document preparation, and post-marriage adaptation help. Our goal is to make your journey as smooth as possible."
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "slug": "psychology-of-lasting-relationships",
+        "title": "The Psychology of Lasting Relationships",
+        "excerpt": "Insights from our psychological approach to matchmaking. How inner work and self-awareness lead to healthier, happier partnerships.",
+        "image": "blog-post-3.jpg",
+        "date": "2025-01-25",
+        "author": "Olga Nechaieva",
+        "content": [
+          {
+            "type": "text",
+            "value": "After 15 years as a matchmaker and psychologist, I've learned that successful relationships start from within. Before you can build a healthy partnership with someone else, you need to understand yourself."
+          },
+          {
+            "type": "heading",
+            "value": "Self-Awareness First"
+          },
+          {
+            "type": "text",
+            "value": "Our transformational game 'Cupid' helps clients explore their relationship patterns, identify inner barriers, and understand what they truly seek in a partner. This self-work is invaluable—it prevents repeating past mistakes and helps you make conscious choices."
+          },
+          {
+            "type": "heading",
+            "value": "Beyond Surface Compatibility"
+          },
+          {
+            "type": "text",
+            "value": "While shared interests are nice, lasting relationships are built on aligned values, compatible life goals, and mutual respect. We focus on these deeper aspects when matching our clients, ensuring connections that can weather life's challenges."
+          },
+          {
+            "type": "text",
+            "value": "Psychological support doesn't end with the match. We continue to provide guidance as relationships develop, helping couples navigate conflicts, cultural adjustments, and major life transitions together."
+          },
+          {
+            "type": "heading",
+            "value": "Building Trust"
+          },
+          {
+            "type": "text",
+            "value": "Trust is the foundation of any relationship, especially international ones where distance and cultural differences can create uncertainty. We help our clients build trust gradually—through honest communication, consistent actions, and supported decision-making."
+          }
+        ]
+      }
+    ]
   }
 }

@@ -1,93 +1,100 @@
-import DefaultNavbar from "../../../examples/Navbars/DefaultNavbar";
-import routes from "../../../routes";
-import MKBox from "../../../components/MKBox";
-import bgImage from "../../../assets/images/bg-about-us.jpg";
-import DefaultFooter from "../../../examples/Footers/DefaultFooter";
-import footerRoutes from "../../../footer.routes";
-import venusLogo from "../../../assets/images/logo/logo.png";
+import { useTranslation } from "react-i18next";
+import Container from "@mui/material/Container";
+import Grid from "@mui/material/Grid";
+
+import DefaultNavbar from "examples/Navbars/DefaultNavbar";
+import DefaultFooter from "examples/Footers/DefaultFooter";
+import CenteredBlogCard from "examples/Cards/BlogCards/CenteredBlogCard";
+import MKBox from "components/MKBox";
+import MKTypography from "components/MKTypography";
+
+import routes from "routes";
+import footerRoutes from "footer.routes";
+import venusLogo from "assets/images/logo/logo.png";
+import bgImage from "assets/images/bg-about-us.jpg";
 
 export default function Blog() {
-    return (
-        <>
-            <DefaultNavbar
-                brand={{ name: "Venus", image: venusLogo, route: "/" }}
-                routes={routes}
-                // action={{
-                //   type: "external",
-                //   route: "https://www.creative-tim.com/product/material-kit-react",
-                //   label: "free download",
-                //   color: "default",
-                // }}
-                transparent
-                light
-            />
-            <MKBox
-                minHeight="75vh"
-                width="100%"
-                sx={{
-                    backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
-                        `${linearGradient(
-                            rgba(gradients.dark.main, 0.6),
-                            rgba(gradients.dark.state, 0.6)
-                        )}, url(${bgImage})`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    display: "grid",
-                    placeItems: "center",
-                }}
+  const { t } = useTranslation();
+  const posts = t("blog.posts", { returnObjects: true }) || [];
+
+  return (
+    <>
+      <DefaultNavbar
+        brand={{ name: "Venus", image: venusLogo, route: "/" }}
+        routes={routes}
+        transparent
+        light
+      />
+
+      {/* Hero Section */}
+      <MKBox
+        minHeight="50vh"
+        width="100%"
+        sx={{
+          backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
+            `${linearGradient(
+              rgba(gradients.dark.main, 0.6),
+              rgba(gradients.dark.state, 0.6)
+            )}, url(${bgImage})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          display: "grid",
+          placeItems: "center",
+        }}
+      >
+        <Container>
+          <Grid
+            container
+            item
+            xs={12}
+            lg={8}
+            justifyContent="center"
+            sx={{ mx: "auto", textAlign: "center" }}
+          >
+            <MKTypography
+              variant="h1"
+              color="white"
+              sx={({ breakpoints, typography: { size } }) => ({
+                [breakpoints.down("md")]: {
+                  fontSize: size["3xl"],
+                },
+              })}
             >
-                {/*<Container>*/}
-                {/*    <Grid*/}
-                {/*        container*/}
-                {/*        item*/}
-                {/*        xs={12}*/}
-                {/*        lg={8}*/}
-                {/*        justifyContent="center"*/}
-                {/*        alignItems="center"*/}
-                {/*        flexDirection="column"*/}
-                {/*        sx={{ mx: "auto", textAlign: "center" }}*/}
-                {/*    >*/}
-                {/*        <MKTypography*/}
-                {/*            variant="h1"*/}
-                {/*            color="white"*/}
-                {/*            sx={({ breakpoints, typography: { size } }) => ({*/}
-                {/*                [breakpoints.down("md")]: {*/}
-                {/*                    fontSize: size["3xl"],*/}
-                {/*                },*/}
-                {/*            })}*/}
-                {/*        >*/}
-                {/*            Work with an amazing design*/}
-                {/*        </MKTypography>*/}
-                {/*        <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>*/}
-                {/*            We&apos;re constantly trying to express ourselves and actualize our dreams. If you*/}
-                {/*            have the opportunity to play this game*/}
-                {/*        </MKTypography>*/}
-                {/*        <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>*/}
-                {/*            create account*/}
-                {/*        </MKButton>*/}
-                {/*        <MKTypography variant="h6" color="white" mt={8} mb={1}>*/}
-                {/*            Find us on*/}
-                {/*        </MKTypography>*/}
-                {/*        <MKBox display="flex" justifyContent="center" alignItems="center">*/}
-                {/*            <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>*/}
-                {/*                <i className="fab fa-facebook" />*/}
-                {/*            </MKTypography>*/}
-                {/*            <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>*/}
-                {/*                <i className="fab fa-instagram" />*/}
-                {/*            </MKTypography>*/}
-                {/*            <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>*/}
-                {/*                <i className="fab fa-twitter" />*/}
-                {/*            </MKTypography>*/}
-                {/*            <MKTypography component="a" variant="body1" color="white" href="#">*/}
-                {/*                <i className="fab fa-google-plus" />*/}
-                {/*            </MKTypography>*/}
-                {/*        </MKBox>*/}
-                {/*    </Grid>*/}
-                {/*</Container>*/}
-            </MKBox>
-            <MKBox pt={6} px={1} mt={6}>
-                <DefaultFooter content={footerRoutes} />
-            </MKBox>
-        </>
-    );
+              {t("blog.page_title")}
+            </MKTypography>
+            <MKTypography variant="body1" color="white" opacity={0.8} mt={2}>
+              {t("blog.page_subtitle")}
+            </MKTypography>
+          </Grid>
+        </Container>
+      </MKBox>
+
+      {/* Blog Posts Grid */}
+      <MKBox component="section" py={8}>
+        <Container>
+          <Grid container spacing={3}>
+            {posts.map((post) => (
+              <Grid item xs={12} md={6} lg={4} key={post.id}>
+                <CenteredBlogCard
+                  image={require(`assets/images/blog/${post.image}`)}
+                  title={post.title}
+                  description={post.excerpt}
+                  action={{
+                    type: "internal",
+                    route: `/blog/${post.slug}`,
+                    color: "info",
+                    label: t("blog.read_more"),
+                  }}
+                />
+              </Grid>
+            ))}
+          </Grid>
+        </Container>
+      </MKBox>
+
+      <MKBox pt={6} px={1} mt={6}>
+        <DefaultFooter content={footerRoutes} />
+      </MKBox>
+    </>
+  );
 }
