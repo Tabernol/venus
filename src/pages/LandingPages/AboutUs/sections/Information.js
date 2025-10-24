@@ -23,7 +23,6 @@ import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
 import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
-import CenteredBlogCard from "examples/Cards/BlogCards/CenteredBlogCard";
 import { useTranslation } from "react-i18next";
 import informationImg from "assets/images/home/information.jpg"
 

@@ -24,14 +24,6 @@ import MKBox from "components/MKBox";
 import DefaultCounterCard from "examples/Cards/CounterCards/DefaultCounterCard";
 import { useTranslation } from "react-i18next";
 
-// Images
-import coinbase from "assets/images/logos/gray-logos/logo-coinbase.svg";
-import nasa from "assets/images/logos/gray-logos/logo-nasa.svg";
-import netflix from "assets/images/logos/gray-logos/logo-netflix.svg";
-import pinterest from "assets/images/logos/gray-logos/logo-pinterest.svg";
-import spotify from "assets/images/logos/gray-logos/logo-spotify.svg";
-import vodafone from "assets/images/logos/gray-logos/logo-vodafone.svg";
-
 function Achievements() {
   const { t } = useTranslation();
   const a = t("achievements", { returnObjects: true }) || {};

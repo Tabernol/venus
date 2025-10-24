@@ -39,18 +39,12 @@ Coded by www.creative-tim.com
 // @mui material components
 import Icon from "@mui/material/Icon";
 
-// @mui icons
-import GitHubIcon from "@mui/icons-material/GitHub";
-
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
 import Blog from "layouts/pages/landing-pages/blog";
 import Gallery from "layouts/pages/landing-pages/gallery";
 import Services from "layouts/pages/landing-pages/services";
-
-import Author from "layouts/pages/landing-pages/author";
-import SignIn from "layouts/pages/authentication/sign-in";
 
 const routes = [
   // { name: "Home",
