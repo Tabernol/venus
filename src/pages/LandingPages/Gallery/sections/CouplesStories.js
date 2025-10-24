@@ -27,6 +27,7 @@ import { useTranslation } from "react-i18next";
 import olgaScott from "assets/images/couples/olga_scott.jpg";
 import annaThomas from "assets/images/couples/anna_thomas.jpg";
 import ninaGenrih from "assets/images/couples/nina_genrih.jpg";
+import defaultImg from "assets/images/couples/default.png";
 
 function CouplesStories() {
   const { t } = useTranslation();
@@ -36,7 +37,8 @@ function CouplesStories() {
   const imageMap = {
     "olga_scott.jpg": olgaScott,
     "anna_thomas.jpg": annaThomas,
-    "nina_genrih.jpg": ninaGenrih
+    "nina_genrih.jpg": ninaGenrih,
+    "default.png": defaultImg
   };
 
   return (

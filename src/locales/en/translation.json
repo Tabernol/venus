@@ -942,6 +942,66 @@
         "image": "nina_genrih.jpg",
         "name": "Nina and Genrih",
         "story": "They met in a coffee shop and never parted again. Their shared passion for travel and photography brought them together forever..."
+      },
+      {
+        "id": "104",
+        "image": "default.png",
+        "name": "Iryna and Luca",
+        "story": "They matched over their love for rescue animals and met during a weekend in Kraków. Between Milan and Lviv, they traded night trains and handwritten notes—until Luca proposed by Lake Como at sunrise."
+      },
+      {
+        "id": "105",
+        "image": "default.png",
+        "name": "Kateryna and Hugo",
+        "story": "A barista and a French architect who kept sketching her latte art on napkins. The doodles turned into plans; the plans turned into a tiny flat with big windows and bigger dreams."
+      },
+      {
+        "id": "106",
+        "image": "default.png",
+        "name": "Svitlana and Marc",
+        "story": "They joined the same hiking group in the Carpathians. By the time they reached Hoverla, they’d already planned a life of weekend trails and mid-week paellas between Kyiv and Barcelona."
+      },
+      {
+        "id": "107",
+        "image": "default.png",
+        "name": "Daria and Pierre",
+        "story": "They collided in a museum gift shop over the last postcard of the Odesa Opera. He let her keep it; she wrote her number on the back. A month later, Paris felt like home."
+      },
+      {
+        "id": "108",
+        "image": "default.png",
+        "name": "Alina and Jonas",
+        "story": "Two code geeks who met at a hackathon in Berlin. Their first project crashed, their second won a prize, and the third was a wedding website with an Easter egg only they can find."
+      },
+      {
+        "id": "109",
+        "image": "default.png",
+        "name": "Viktoria and Matteo",
+        "story": "She teased that varenyky beat ravioli; he countered with tiramisu. A cooking class settled nothing—except that they taste better together."
+      },
+      {
+        "id": "110",
+        "image": "default.png",
+        "name": "Olena and Liam",
+        "story": "A fogged-in airport turned a layover into a book swap. Now every trip they take begins with a bookstore and ends with a note tucked between the pages."
+      },
+      {
+        "id": "111",
+        "image": "default.png",
+        "name": "Yuliya and Oliver",
+        "story": "They met at a language exchange where their accents did most of the flirting. By summer they were practicing tenses by the sea and promising forever without translating it."
+      },
+      {
+        "id": "112",
+        "image": "default.png",
+        "name": "Liliya and Adrien",
+        "story": "He asked for the seat near the stage at a Kyiv jazz bar; she was the pianist. The encore was a polaroid, a shared dessert, and a cat they later named ‘Jazz’."
+      },
+      {
+        "id": "113",
+        "image": "default.png",
+        "name": "Bogdana and Oscar",
+        "story": "A charity bike ride put them in the same peloton. After 100 kilometers of rain and laughter through Dutch fields, they crossed the finish line already planning the next route."
       }
     ]
   }
